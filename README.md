@@ -28,7 +28,7 @@ see *logs* for more information
 <img src="logs/acc-densenet121.png" width="30%">
 </div>
 
-## TSNE visualization on 20 classes from CUB200+StanfordDogs
+## TSNE visualization of 20 classes
 
 `Feature Space`: space constructed with output of specified layers.   
 `Common Space`: common feature space in CFL Blocks
