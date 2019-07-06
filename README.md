@@ -28,8 +28,8 @@ DenseNet121     |   0.7769    |      **0.7805**
 
 ## TSNE visualization on 20 classes from CUB200+StanfordDogs
 
-Feature Space: space constructed with output of specified layers.   
-Common Space: common feature space in CFL Blocks
+`Feature Space`: space constructed with output of specified layers.   
+`Common Space`: common feature space in CFL Blocks
 
 **Some Feature spaces are None because of different feature dimensions (e.g. 2048 for ResNet50 but 512 for ResNet34)**
 
@@ -40,7 +40,6 @@ ResNet50  |  ![cfl-feature-space](tsne_results/resnet50/common_space_tsne_0.png)
 DenseNet121  |  ![cfl-feature-space](tsne_results/densenet121/common_space_tsne_0.png) |   None
 
 ## Quick Start
-This example shows how to extract common features from a bird classifier (ResNet34) and a dog classifier (ResNet18).
 
 #### 1. Download Datasets
 ```bash
