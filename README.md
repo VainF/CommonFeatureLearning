@@ -42,16 +42,16 @@ DenseNet121  |  ![cfl-feature-space](tsne_results/densenet121/common_space_tsne_
 ## Quick Start
 This example shows how to extract common features from a bird classifier (ResNet34) and a dog classifier (ResNet18).
 
-### 1. Download Datasets
+#### 1. Download Datasets
 ```bash
 python download_data.py
 ```
 
-### 2. Get trained Teachers
+#### 2. Get trained Teachers
 
 [Download Link (comming soon)]()
 
-### 3. Train
+#### 3. Train
 ```bash
 python amal.py --model resnet34 --gpu_id 0
 ```
@@ -60,13 +60,13 @@ or
 bash run_all.sh
 ```
 
-### Draw Accuracy Curve
+#### 4. Draw Accuracy Curve
 ```bash
 cd logs/
 python draw_acc_curve.py
 ```
 
-### TSNE
+#### 5. TSNE
 ```bash
 # ResNet34
 python tsne_common_space.py --ckpt checkpoints/amal_resnet34_best.pth --t1_ckpt checkpoints/cub200_resnet18_best.pth --t2_ckpt checkpoints/dogs_resnet34_best.pth --gpu_id 0
