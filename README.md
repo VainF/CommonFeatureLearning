@@ -25,9 +25,8 @@ DenseNet121     |   0.7769    |      **0.7805**
 
 ## TSNE visualization on 20 classes dogs+birds
 
-Features in Feature Space are extracted directly from models (e.g. output of resnet layer4).   
-The following is TSNE results of two space. Samples are selected from StanfordDogs & CUB200 datasets.   
-see `amal.py` and `tsne_common_space.py` for more information.
+Feature Space: space constructed with output of specified layers.   
+Common Space: common feature space in CFL Blocks
 
 **Some Feature spaces are None because of different feature dimensions (e.g. 2048 for ResNet50 but 512 for ResNet34)**
 
@@ -49,13 +48,11 @@ python download_data.py
 
 [Download Link (comming soon)]()
 
-### 3. Run
+### 3. Train
 ```bash
 python amal.py --model resnet34 --gpu_id 0
 ```
-
 or
-
 ```bash
 bash run_all.sh
 ```
