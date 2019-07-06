@@ -1,5 +1,8 @@
 # Common Feature Learning
 Unofficial implementation of [Knowledge Amalgamation from Heterogeneous Networks by Common Feature Learning](http://arxiv.org/abs/1906.10546) (*IJCAI 2019*)
+<div align="center">
+<img src="CFL.png" width=40%>
+</div>
 
 ## Results
 
