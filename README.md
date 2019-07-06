@@ -19,6 +19,8 @@ ResNet34        |   0.7679    |      **0.7762**
 ResNet50        |   0.7909    |      **0.7926** 
 DenseNet121     |   0.7769    |      **0.7805**
 
+see *logs* for more information
+
 ### Accuracy Curve
 <div>
 <img src="logs/acc-resnet34.png" width="30%">
