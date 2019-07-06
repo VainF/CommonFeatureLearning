@@ -12,7 +12,7 @@ Teacher Model   |        Dataset     |    num_classes       |    Acc
 ResNet18        |   [CUB200](http://www.vision.caltech.edu/visipedia/CUB-200.html)        |     200              |    0.7411
 ResNet34        |   [Stanford-Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)    |     120              |    0.8663
 
-### Student Performance
+### Student Performance (CUB200+Dogs)
 Target Model    |    KD       |       CFL   
 :--------------:|:-----------:|:-------------------:
 ResNet34        |   0.7679    |      **0.7762**
