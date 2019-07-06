@@ -10,9 +10,9 @@ Unofficial implementation of [Knowledge Amalgamation from Heterogeneous Networks
 Teacher Model   |        Dataset     |    num_classes       |    Acc   
 :--------------:|:------------------:|:--------------------:| :-----------:
 ResNet18        |   [CUB200](http://www.vision.caltech.edu/visipedia/CUB-200.html)        |     200              |    0.7411
-ResNet34        |   [Stanford-Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)    |     120              |    0.8663
+ResNet34        |   [StanfordDogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)    |     120              |    0.8663
 
-### Student Performance (CUB200+Dogs)
+### Student Performance (CUB200+StanfordDogs)
 Target Model    |    KD       |       CFL   
 :--------------:|:-----------:|:-------------------:
 ResNet34        |   0.7679    |      **0.7762**
@@ -26,7 +26,7 @@ DenseNet121     |   0.7769    |      **0.7805**
 <img src="logs/acc-densenet121.png" width="30%">
 </div>
 
-## TSNE visualization on 20 classes dogs+birds
+## TSNE visualization on 20 classes from CUB200+StanfordDogs
 
 Feature Space: space constructed with output of specified layers.   
 Common Space: common feature space in CFL Blocks
