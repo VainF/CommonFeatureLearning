@@ -70,6 +70,8 @@ python draw_acc_curve.py
 ```
 
 #### 5. TSNE
+TSNE results will be saved at tsne_results/MODEL_NAME/ 
+
 ```bash
 # ResNet34
 python tsne_common_space.py --ckpt checkpoints/amal_resnet34_best.pth --t1_ckpt checkpoints/cub200_resnet18_best.pth --t2_ckpt checkpoints/dogs_resnet34_best.pth --gpu_id 0
