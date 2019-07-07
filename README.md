@@ -31,8 +31,8 @@ see *logs* for more information
 
 ## TSNE visualization of 20 classes
 
-`Feature Space`: space constructed with output of specified layers.   
-`Common Space`: common feature space in CFL Blocks
+`Feature Space`: space constructed with intermediate outputs.
+`Common Space`: common feature space in CFL Blocks.
 
 **Some Feature spaces are None because of different feature dimensions (e.g. 2048 for ResNet50 but 512 for ResNet34)**
 
