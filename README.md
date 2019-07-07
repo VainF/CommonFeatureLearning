@@ -29,7 +29,7 @@ see *logs* for more information
 <img src="logs/acc-densenet121.png" width="30%">
 </div>
 
-## TSNE visualization of 20 classes
+## TSNE Visualization of 20 Classes
 
 `Feature Space`: space constructed with intermediate outputs.  
 `Common Space`: common feature space in CFL Blocks.
