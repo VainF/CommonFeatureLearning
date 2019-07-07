@@ -1,4 +1,4 @@
-Put StanfordDogs and CUB200 here.
+Put StanfordDogs and CUB200 datasets here.
 
 ```
 data/
