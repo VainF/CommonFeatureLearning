@@ -10,13 +10,13 @@ Unofficial implementation of [Knowledge Amalgamation from Heterogeneous Networks
 Teacher Model   |        Dataset     |    num_classes       |    Acc   
 :--------------:|:------------------:|:--------------------:| :-----------:
 ResNet18        |   [CUB200](http://www.vision.caltech.edu/visipedia/CUB-200.html)        |     200              |    0.7411
-ResNet34        |   [StanfordDogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)    |     120              |    0.8663
+ResNet34        |   [StanfordDogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)     |     120              |    0.8663
 
 ### Student Performance (CUB200+StanfordDogs)
 Target Model    |    KD       |       CFL   
 :--------------:|:-----------:|:-------------------:
 ResNet34        |   0.7679    |      **0.7762**
-ResNet50        |   0.7909    |      **0.7926** 
+ResNet50        |   0.7965    |      **0.7997** 
 DenseNet121     |   0.7769    |      **0.7805**
 
 see *logs* for more information
@@ -48,9 +48,10 @@ DenseNet121  |  ![cfl-feature-space](tsne_results/densenet121/common_space_tsne_
 python download_data.py
 ```
 
-#### 2. Get trained Teachers
-
-[Download Link (comming soon)]()
+#### 2. Get trained Teacher Models
+ResNet18 & ResNet34, 242.9 MB  
+[Google Drive](https://drive.google.com/open?id=1cMOwJlf4S9fGwWv4hSXnpSwSrwGkGW94)  
+[BaiDu Cloud](https://pan.baidu.com/s/1qydtKOSn8vVUkqWjuyHblA)  
 
 #### 3. Train
 ```bash
