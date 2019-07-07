@@ -49,7 +49,7 @@ DenseNet121  |  ![cfl-feature-space](tsne_results/densenet121/common_space_tsne_
 python download_data.py
 ```
 
-#### 2. Get trained Teacher Models
+#### 2. Get Trained Teacher Models
 ResNet18 & ResNet34, 242.9 MB  
 [Google Drive](https://drive.google.com/open?id=1cMOwJlf4S9fGwWv4hSXnpSwSrwGkGW94)  
 [BaiDu Yun](https://pan.baidu.com/s/1qydtKOSn8vVUkqWjuyHblA)  
