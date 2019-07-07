@@ -52,7 +52,7 @@ python download_data.py
 #### 2. Get trained Teacher Models
 ResNet18 & ResNet34, 242.9 MB  
 [Google Drive](https://drive.google.com/open?id=1cMOwJlf4S9fGwWv4hSXnpSwSrwGkGW94)  
-[BaiDu Cloud](https://pan.baidu.com/s/1qydtKOSn8vVUkqWjuyHblA)  
+[BaiDu Yun](https://pan.baidu.com/s/1qydtKOSn8vVUkqWjuyHblA)  
 
 #### 3. Train
 ```bash
