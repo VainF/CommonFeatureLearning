@@ -79,7 +79,7 @@ def kd(cur_epoch, criterion_ce, model, teachers, optim, train_loader, device, sc
                   (cur_epoch, cur_step+1, len(train_loader), interval_loss))
             avgmeter.reset('interval loss')
             
-    return avgmeter.get_results('loss') / len(train_loader)
+    return avgmeter.get_results('loss')
 
 
 def validate(model, loader, device, metrics):

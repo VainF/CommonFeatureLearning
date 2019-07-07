@@ -1,4 +1,4 @@
-Namespace(batch_size=64, data_root='./data', download=False, epochs=30, gpu_id='3', lr=0.0001, model='resnet34', random_seed=1337, t1_ckpt='checkpoints/cub200_resnet18_best.pth', t2_ckpt='checkpoints/dogs_resnet34_best.pth')
+Namespace(batch_size=64, data_root='./data', download=False, epochs=30, gpu_id='2', lr=0.0001, model='resnet34', random_seed=1337, t1_ckpt='checkpoints/cub200_resnet18_best.pth', t2_ckpt='checkpoints/dogs_resnet34_best.pth')
 CUB200, Split: train, Size: 5994
 CUB200, Split: test, Size: 5794
 Stanford Dogs, Split: train, Size: 12000
@@ -8,1157 +8,1159 @@ T1: resnet18, T2: resnet34
 Target student: resnet34
 Training ...
 Epoch 0, lr = 0.000100
-Epoch 0, Batch 10/281, Loss=5.805270
-Epoch 0, Batch 20/281, Loss=5.077670
-Epoch 0, Batch 30/281, Loss=4.301922
-Epoch 0, Batch 40/281, Loss=3.853640
-Epoch 0, Batch 50/281, Loss=3.458966
-Epoch 0, Batch 60/281, Loss=3.292995
-Epoch 0, Batch 70/281, Loss=2.999678
-Epoch 0, Batch 80/281, Loss=2.785925
-Epoch 0, Batch 90/281, Loss=2.573427
-Epoch 0, Batch 100/281, Loss=2.454540
-Epoch 0, Batch 110/281, Loss=2.298866
-Epoch 0, Batch 120/281, Loss=2.239398
-Epoch 0, Batch 130/281, Loss=2.134106
-Epoch 0, Batch 140/281, Loss=2.125960
-Epoch 0, Batch 150/281, Loss=2.007323
-Epoch 0, Batch 160/281, Loss=1.972585
-Epoch 0, Batch 170/281, Loss=1.907060
-Epoch 0, Batch 180/281, Loss=1.968345
-Epoch 0, Batch 190/281, Loss=1.870175
-Epoch 0, Batch 200/281, Loss=1.853918
-Epoch 0, Batch 210/281, Loss=1.800286
-Epoch 0, Batch 220/281, Loss=1.837389
-Epoch 0, Batch 230/281, Loss=1.746828
-Epoch 0, Batch 240/281, Loss=1.777811
-Epoch 0, Batch 250/281, Loss=1.788672
-Epoch 0, Batch 260/281, Loss=1.710448
-Epoch 0, Batch 270/281, Loss=1.712639
-Epoch 0, Batch 280/281, Loss=1.786372
-End of Epoch 0/30, Average Loss=0.009032
+Epoch 0, Batch 10/281, Loss=5.805298
+Epoch 0, Batch 20/281, Loss=5.077819
+Epoch 0, Batch 30/281, Loss=4.302398
+Epoch 0, Batch 40/281, Loss=3.853396
+Epoch 0, Batch 50/281, Loss=3.459010
+Epoch 0, Batch 60/281, Loss=3.292558
+Epoch 0, Batch 70/281, Loss=2.999596
+Epoch 0, Batch 80/281, Loss=2.786217
+Epoch 0, Batch 90/281, Loss=2.573981
+Epoch 0, Batch 100/281, Loss=2.453428
+Epoch 0, Batch 110/281, Loss=2.297077
+Epoch 0, Batch 120/281, Loss=2.238666
+Epoch 0, Batch 130/281, Loss=2.137364
+Epoch 0, Batch 140/281, Loss=2.126076
+Epoch 0, Batch 150/281, Loss=2.006095
+Epoch 0, Batch 160/281, Loss=1.971375
+Epoch 0, Batch 170/281, Loss=1.907362
+Epoch 0, Batch 180/281, Loss=1.963069
+Epoch 0, Batch 190/281, Loss=1.867825
+Epoch 0, Batch 200/281, Loss=1.850992
+Epoch 0, Batch 210/281, Loss=1.798776
+Epoch 0, Batch 220/281, Loss=1.836111
+Epoch 0, Batch 230/281, Loss=1.749433
+Epoch 0, Batch 240/281, Loss=1.775112
+Epoch 0, Batch 250/281, Loss=1.778092
+Epoch 0, Batch 260/281, Loss=1.708196
+Epoch 0, Batch 270/281, Loss=1.710279
+Epoch 0, Batch 280/281, Loss=1.788284
+End of Epoch 0/30, Average Loss=0.009029
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.643764
-Mean Acc: 0.605511
-FreqW Acc: 0.505405
-Mean IoU: 0.458331
+Overall Acc: 0.639788
+Mean Acc: 0.601707
+FreqW Acc: 0.500795
+Mean IoU: 0.453998
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 1, lr = 0.000100
-Epoch 1, Batch 10/281, Loss=1.388398
-Epoch 1, Batch 20/281, Loss=1.411036
-Epoch 1, Batch 30/281, Loss=1.452680
-Epoch 1, Batch 40/281, Loss=1.429099
-Epoch 1, Batch 50/281, Loss=1.409048
-Epoch 1, Batch 60/281, Loss=1.338424
-Epoch 1, Batch 70/281, Loss=1.325356
-Epoch 1, Batch 80/281, Loss=1.399714
-Epoch 1, Batch 90/281, Loss=1.481167
-Epoch 1, Batch 100/281, Loss=1.313625
-Epoch 1, Batch 110/281, Loss=1.373902
-Epoch 1, Batch 120/281, Loss=1.395355
-Epoch 1, Batch 130/281, Loss=1.388836
-Epoch 1, Batch 140/281, Loss=1.420028
-Epoch 1, Batch 150/281, Loss=1.439553
-Epoch 1, Batch 160/281, Loss=1.344377
-Epoch 1, Batch 170/281, Loss=1.356998
-Epoch 1, Batch 180/281, Loss=1.411356
-Epoch 1, Batch 190/281, Loss=1.310667
-Epoch 1, Batch 200/281, Loss=1.370466
-Epoch 1, Batch 210/281, Loss=1.373403
-Epoch 1, Batch 220/281, Loss=1.356880
-Epoch 1, Batch 230/281, Loss=1.388665
-Epoch 1, Batch 240/281, Loss=1.457832
-Epoch 1, Batch 250/281, Loss=1.370805
-Epoch 1, Batch 260/281, Loss=1.338597
-Epoch 1, Batch 270/281, Loss=1.403523
-Epoch 1, Batch 280/281, Loss=1.370749
-End of Epoch 1/30, Average Loss=0.004939
+Epoch 1, Batch 10/281, Loss=1.389112
+Epoch 1, Batch 20/281, Loss=1.412819
+Epoch 1, Batch 30/281, Loss=1.458498
+Epoch 1, Batch 40/281, Loss=1.432044
+Epoch 1, Batch 50/281, Loss=1.412538
+Epoch 1, Batch 60/281, Loss=1.334297
+Epoch 1, Batch 70/281, Loss=1.326120
+Epoch 1, Batch 80/281, Loss=1.398306
+Epoch 1, Batch 90/281, Loss=1.482307
+Epoch 1, Batch 100/281, Loss=1.305008
+Epoch 1, Batch 110/281, Loss=1.382556
+Epoch 1, Batch 120/281, Loss=1.394377
+Epoch 1, Batch 130/281, Loss=1.386694
+Epoch 1, Batch 140/281, Loss=1.426618
+Epoch 1, Batch 150/281, Loss=1.429943
+Epoch 1, Batch 160/281, Loss=1.337037
+Epoch 1, Batch 170/281, Loss=1.359178
+Epoch 1, Batch 180/281, Loss=1.411054
+Epoch 1, Batch 190/281, Loss=1.311046
+Epoch 1, Batch 200/281, Loss=1.359275
+Epoch 1, Batch 210/281, Loss=1.367473
+Epoch 1, Batch 220/281, Loss=1.343987
+Epoch 1, Batch 230/281, Loss=1.375198
+Epoch 1, Batch 240/281, Loss=1.449598
+Epoch 1, Batch 250/281, Loss=1.380241
+Epoch 1, Batch 260/281, Loss=1.336097
+Epoch 1, Batch 270/281, Loss=1.398394
+Epoch 1, Batch 280/281, Loss=1.373055
+End of Epoch 1/30, Average Loss=0.004932
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.682826
-Mean Acc: 0.674313
-FreqW Acc: 0.551864
-Mean IoU: 0.530261
+Overall Acc: 0.683594
+Mean Acc: 0.674902
+FreqW Acc: 0.553109
+Mean IoU: 0.530395
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 2, lr = 0.000100
-Epoch 2, Batch 10/281, Loss=1.250661
-Epoch 2, Batch 20/281, Loss=1.195433
-Epoch 2, Batch 30/281, Loss=1.216681
-Epoch 2, Batch 40/281, Loss=1.132206
-Epoch 2, Batch 50/281, Loss=1.197343
-Epoch 2, Batch 60/281, Loss=1.140062
-Epoch 2, Batch 70/281, Loss=1.166639
-Epoch 2, Batch 80/281, Loss=1.176775
-Epoch 2, Batch 90/281, Loss=1.252546
-Epoch 2, Batch 100/281, Loss=1.223358
-Epoch 2, Batch 110/281, Loss=1.203631
-Epoch 2, Batch 120/281, Loss=1.161056
-Epoch 2, Batch 130/281, Loss=1.155766
-Epoch 2, Batch 140/281, Loss=1.212803
-Epoch 2, Batch 150/281, Loss=1.177858
-Epoch 2, Batch 160/281, Loss=1.205691
-Epoch 2, Batch 170/281, Loss=1.171607
-Epoch 2, Batch 180/281, Loss=1.138460
-Epoch 2, Batch 190/281, Loss=1.207162
-Epoch 2, Batch 200/281, Loss=1.191877
-Epoch 2, Batch 210/281, Loss=1.188815
-Epoch 2, Batch 220/281, Loss=1.247884
-Epoch 2, Batch 230/281, Loss=1.174876
-Epoch 2, Batch 240/281, Loss=1.220374
-Epoch 2, Batch 250/281, Loss=1.229137
-Epoch 2, Batch 260/281, Loss=1.127736
-Epoch 2, Batch 270/281, Loss=1.166630
-Epoch 2, Batch 280/281, Loss=1.202692
-End of Epoch 2/30, Average Loss=0.004236
+Epoch 2, Batch 10/281, Loss=1.249280
+Epoch 2, Batch 20/281, Loss=1.202560
+Epoch 2, Batch 30/281, Loss=1.228195
+Epoch 2, Batch 40/281, Loss=1.134988
+Epoch 2, Batch 50/281, Loss=1.198157
+Epoch 2, Batch 60/281, Loss=1.151262
+Epoch 2, Batch 70/281, Loss=1.175523
+Epoch 2, Batch 80/281, Loss=1.176415
+Epoch 2, Batch 90/281, Loss=1.243016
+Epoch 2, Batch 100/281, Loss=1.234421
+Epoch 2, Batch 110/281, Loss=1.188888
+Epoch 2, Batch 120/281, Loss=1.158714
+Epoch 2, Batch 130/281, Loss=1.154094
+Epoch 2, Batch 140/281, Loss=1.214134
+Epoch 2, Batch 150/281, Loss=1.172495
+Epoch 2, Batch 160/281, Loss=1.197923
+Epoch 2, Batch 170/281, Loss=1.170532
+Epoch 2, Batch 180/281, Loss=1.141645
+Epoch 2, Batch 190/281, Loss=1.223674
+Epoch 2, Batch 200/281, Loss=1.191119
+Epoch 2, Batch 210/281, Loss=1.185706
+Epoch 2, Batch 220/281, Loss=1.252373
+Epoch 2, Batch 230/281, Loss=1.165652
+Epoch 2, Batch 240/281, Loss=1.205820
+Epoch 2, Batch 250/281, Loss=1.220669
+Epoch 2, Batch 260/281, Loss=1.132141
+Epoch 2, Batch 270/281, Loss=1.180607
+Epoch 2, Batch 280/281, Loss=1.201346
+End of Epoch 2/30, Average Loss=0.004238
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.704590
-Mean Acc: 0.690142
-FreqW Acc: 0.575785
-Mean IoU: 0.548831
+Overall Acc: 0.701172
+Mean Acc: 0.685266
+FreqW Acc: 0.574562
+Mean IoU: 0.544545
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 3, lr = 0.000100
-Epoch 3, Batch 10/281, Loss=1.101924
-Epoch 3, Batch 20/281, Loss=1.075962
-Epoch 3, Batch 30/281, Loss=1.122395
-Epoch 3, Batch 40/281, Loss=1.065396
-Epoch 3, Batch 50/281, Loss=1.008505
-Epoch 3, Batch 60/281, Loss=1.059369
-Epoch 3, Batch 70/281, Loss=1.041766
-Epoch 3, Batch 80/281, Loss=1.049849
-Epoch 3, Batch 90/281, Loss=1.091935
-Epoch 3, Batch 100/281, Loss=1.105779
-Epoch 3, Batch 110/281, Loss=1.119768
-Epoch 3, Batch 120/281, Loss=1.074404
-Epoch 3, Batch 130/281, Loss=1.113343
-Epoch 3, Batch 140/281, Loss=1.093278
-Epoch 3, Batch 150/281, Loss=1.094781
-Epoch 3, Batch 160/281, Loss=1.122876
-Epoch 3, Batch 170/281, Loss=1.103737
-Epoch 3, Batch 180/281, Loss=1.077028
-Epoch 3, Batch 190/281, Loss=1.073562
-Epoch 3, Batch 200/281, Loss=1.120731
-Epoch 3, Batch 210/281, Loss=1.145001
-Epoch 3, Batch 220/281, Loss=1.169437
-Epoch 3, Batch 230/281, Loss=1.111690
-Epoch 3, Batch 240/281, Loss=1.130518
-Epoch 3, Batch 250/281, Loss=1.170418
-Epoch 3, Batch 260/281, Loss=1.153556
-Epoch 3, Batch 270/281, Loss=1.083601
-Epoch 3, Batch 280/281, Loss=1.110770
-End of Epoch 3/30, Average Loss=0.003912
+Epoch 3, Batch 10/281, Loss=1.103404
+Epoch 3, Batch 20/281, Loss=1.080648
+Epoch 3, Batch 30/281, Loss=1.122889
+Epoch 3, Batch 40/281, Loss=1.077417
+Epoch 3, Batch 50/281, Loss=1.022008
+Epoch 3, Batch 60/281, Loss=1.063870
+Epoch 3, Batch 70/281, Loss=1.049593
+Epoch 3, Batch 80/281, Loss=1.056896
+Epoch 3, Batch 90/281, Loss=1.099793
+Epoch 3, Batch 100/281, Loss=1.107699
+Epoch 3, Batch 110/281, Loss=1.122329
+Epoch 3, Batch 120/281, Loss=1.061035
+Epoch 3, Batch 130/281, Loss=1.122282
+Epoch 3, Batch 140/281, Loss=1.096575
+Epoch 3, Batch 150/281, Loss=1.106802
+Epoch 3, Batch 160/281, Loss=1.109158
+Epoch 3, Batch 170/281, Loss=1.103356
+Epoch 3, Batch 180/281, Loss=1.078230
+Epoch 3, Batch 190/281, Loss=1.063405
+Epoch 3, Batch 200/281, Loss=1.103540
+Epoch 3, Batch 210/281, Loss=1.142498
+Epoch 3, Batch 220/281, Loss=1.166216
+Epoch 3, Batch 230/281, Loss=1.092586
+Epoch 3, Batch 240/281, Loss=1.139187
+Epoch 3, Batch 250/281, Loss=1.161368
+Epoch 3, Batch 260/281, Loss=1.149615
+Epoch 3, Batch 270/281, Loss=1.083877
+Epoch 3, Batch 280/281, Loss=1.121971
+End of Epoch 3/30, Average Loss=0.003914
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.694336
-Mean Acc: 0.686995
-FreqW Acc: 0.566246
-Mean IoU: 0.540335
+Overall Acc: 0.690848
+Mean Acc: 0.685432
+FreqW Acc: 0.561493
+Mean IoU: 0.538155
 
 Epoch 4, lr = 0.000100
-Epoch 4, Batch 10/281, Loss=1.049372
-Epoch 4, Batch 20/281, Loss=1.043074
-Epoch 4, Batch 30/281, Loss=1.025591
-Epoch 4, Batch 40/281, Loss=1.004356
-Epoch 4, Batch 50/281, Loss=1.045052
-Epoch 4, Batch 60/281, Loss=1.070562
-Epoch 4, Batch 70/281, Loss=1.034027
-Epoch 4, Batch 80/281, Loss=1.064244
-Epoch 4, Batch 90/281, Loss=1.058774
-Epoch 4, Batch 100/281, Loss=1.036534
-Epoch 4, Batch 110/281, Loss=1.086490
-Epoch 4, Batch 120/281, Loss=1.001804
-Epoch 4, Batch 130/281, Loss=1.072021
-Epoch 4, Batch 140/281, Loss=1.058956
-Epoch 4, Batch 150/281, Loss=1.059007
-Epoch 4, Batch 160/281, Loss=1.036149
-Epoch 4, Batch 170/281, Loss=1.052058
-Epoch 4, Batch 180/281, Loss=1.042384
-Epoch 4, Batch 190/281, Loss=0.968176
-Epoch 4, Batch 200/281, Loss=1.062166
-Epoch 4, Batch 210/281, Loss=1.054940
-Epoch 4, Batch 220/281, Loss=1.124739
-Epoch 4, Batch 230/281, Loss=1.128197
-Epoch 4, Batch 240/281, Loss=1.042041
-Epoch 4, Batch 250/281, Loss=1.145968
-Epoch 4, Batch 260/281, Loss=1.107436
-Epoch 4, Batch 270/281, Loss=1.025857
-Epoch 4, Batch 280/281, Loss=1.109646
-End of Epoch 4/30, Average Loss=0.003761
+Epoch 4, Batch 10/281, Loss=1.060500
+Epoch 4, Batch 20/281, Loss=1.040603
+Epoch 4, Batch 30/281, Loss=1.033327
+Epoch 4, Batch 40/281, Loss=1.007600
+Epoch 4, Batch 50/281, Loss=1.026503
+Epoch 4, Batch 60/281, Loss=1.048946
+Epoch 4, Batch 70/281, Loss=1.009108
+Epoch 4, Batch 80/281, Loss=1.047717
+Epoch 4, Batch 90/281, Loss=1.049688
+Epoch 4, Batch 100/281, Loss=1.022768
+Epoch 4, Batch 110/281, Loss=1.073551
+Epoch 4, Batch 120/281, Loss=0.988216
+Epoch 4, Batch 130/281, Loss=1.070910
+Epoch 4, Batch 140/281, Loss=1.049424
+Epoch 4, Batch 150/281, Loss=1.059653
+Epoch 4, Batch 160/281, Loss=1.045749
+Epoch 4, Batch 170/281, Loss=1.057699
+Epoch 4, Batch 180/281, Loss=1.057974
+Epoch 4, Batch 190/281, Loss=0.973965
+Epoch 4, Batch 200/281, Loss=1.065074
+Epoch 4, Batch 210/281, Loss=1.041271
+Epoch 4, Batch 220/281, Loss=1.119236
+Epoch 4, Batch 230/281, Loss=1.132837
+Epoch 4, Batch 240/281, Loss=1.047584
+Epoch 4, Batch 250/281, Loss=1.167337
+Epoch 4, Batch 260/281, Loss=1.124793
+Epoch 4, Batch 270/281, Loss=1.011217
+Epoch 4, Batch 280/281, Loss=1.112558
+End of Epoch 4/30, Average Loss=0.003753
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.709821
-Mean Acc: 0.692460
-FreqW Acc: 0.583725
-Mean IoU: 0.557977
+Overall Acc: 0.702218
+Mean Acc: 0.687292
+FreqW Acc: 0.578440
+Mean IoU: 0.553691
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 5, lr = 0.000100
-Epoch 5, Batch 10/281, Loss=0.982240
-Epoch 5, Batch 20/281, Loss=1.031687
-Epoch 5, Batch 30/281, Loss=1.018362
-Epoch 5, Batch 40/281, Loss=1.072087
-Epoch 5, Batch 50/281, Loss=0.907725
-Epoch 5, Batch 60/281, Loss=0.980697
-Epoch 5, Batch 70/281, Loss=1.062755
-Epoch 5, Batch 80/281, Loss=1.022864
-Epoch 5, Batch 90/281, Loss=1.018426
-Epoch 5, Batch 100/281, Loss=1.008552
-Epoch 5, Batch 110/281, Loss=0.971886
-Epoch 5, Batch 120/281, Loss=1.006475
-Epoch 5, Batch 130/281, Loss=0.969331
-Epoch 5, Batch 140/281, Loss=1.120989
-Epoch 5, Batch 150/281, Loss=0.982322
-Epoch 5, Batch 160/281, Loss=1.015391
-Epoch 5, Batch 170/281, Loss=1.017336
-Epoch 5, Batch 180/281, Loss=1.025601
-Epoch 5, Batch 190/281, Loss=1.037545
-Epoch 5, Batch 200/281, Loss=1.058257
-Epoch 5, Batch 210/281, Loss=1.035274
-Epoch 5, Batch 220/281, Loss=1.035221
-Epoch 5, Batch 230/281, Loss=1.049815
-Epoch 5, Batch 240/281, Loss=1.030467
-Epoch 5, Batch 250/281, Loss=1.111234
-Epoch 5, Batch 260/281, Loss=0.998493
-Epoch 5, Batch 270/281, Loss=0.996686
-Epoch 5, Batch 280/281, Loss=1.045563
-End of Epoch 5/30, Average Loss=0.003639
+Epoch 5, Batch 10/281, Loss=0.978506
+Epoch 5, Batch 20/281, Loss=1.039240
+Epoch 5, Batch 30/281, Loss=1.003783
+Epoch 5, Batch 40/281, Loss=1.064581
+Epoch 5, Batch 50/281, Loss=0.911462
+Epoch 5, Batch 60/281, Loss=0.975486
+Epoch 5, Batch 70/281, Loss=1.066987
+Epoch 5, Batch 80/281, Loss=1.017508
+Epoch 5, Batch 90/281, Loss=1.031717
+Epoch 5, Batch 100/281, Loss=1.007733
+Epoch 5, Batch 110/281, Loss=0.979400
+Epoch 5, Batch 120/281, Loss=1.000785
+Epoch 5, Batch 130/281, Loss=0.975233
+Epoch 5, Batch 140/281, Loss=1.124783
+Epoch 5, Batch 150/281, Loss=0.993647
+Epoch 5, Batch 160/281, Loss=1.013794
+Epoch 5, Batch 170/281, Loss=1.014452
+Epoch 5, Batch 180/281, Loss=1.024848
+Epoch 5, Batch 190/281, Loss=1.046088
+Epoch 5, Batch 200/281, Loss=1.058891
+Epoch 5, Batch 210/281, Loss=1.041306
+Epoch 5, Batch 220/281, Loss=1.037042
+Epoch 5, Batch 230/281, Loss=1.042265
+Epoch 5, Batch 240/281, Loss=1.031653
+Epoch 5, Batch 250/281, Loss=1.130618
+Epoch 5, Batch 260/281, Loss=0.988149
+Epoch 5, Batch 270/281, Loss=1.006190
+Epoch 5, Batch 280/281, Loss=1.037602
+End of Epoch 5/30, Average Loss=0.003642
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.708566
-Mean Acc: 0.697488
-FreqW Acc: 0.578949
-Mean IoU: 0.555755
+Overall Acc: 0.707868
+Mean Acc: 0.698290
+FreqW Acc: 0.578022
+Mean IoU: 0.557431
 
+Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 6, lr = 0.000100
-Epoch 6, Batch 10/281, Loss=0.990203
-Epoch 6, Batch 20/281, Loss=1.029793
-Epoch 6, Batch 30/281, Loss=1.020761
-Epoch 6, Batch 40/281, Loss=1.041080
-Epoch 6, Batch 50/281, Loss=0.945519
-Epoch 6, Batch 60/281, Loss=0.997860
-Epoch 6, Batch 70/281, Loss=1.039369
-Epoch 6, Batch 80/281, Loss=1.014515
-Epoch 6, Batch 90/281, Loss=0.954197
-Epoch 6, Batch 100/281, Loss=0.978178
-Epoch 6, Batch 110/281, Loss=1.020669
-Epoch 6, Batch 120/281, Loss=0.958420
-Epoch 6, Batch 130/281, Loss=1.029537
-Epoch 6, Batch 140/281, Loss=0.965608
-Epoch 6, Batch 150/281, Loss=1.049675
-Epoch 6, Batch 160/281, Loss=1.036255
-Epoch 6, Batch 170/281, Loss=0.953465
-Epoch 6, Batch 180/281, Loss=1.023210
-Epoch 6, Batch 190/281, Loss=1.055039
-Epoch 6, Batch 200/281, Loss=1.022566
-Epoch 6, Batch 210/281, Loss=1.036992
-Epoch 6, Batch 220/281, Loss=0.998193
-Epoch 6, Batch 230/281, Loss=1.003787
-Epoch 6, Batch 240/281, Loss=1.043894
-Epoch 6, Batch 250/281, Loss=1.016946
-Epoch 6, Batch 260/281, Loss=1.026158
-Epoch 6, Batch 270/281, Loss=1.001338
-Epoch 6, Batch 280/281, Loss=0.973685
-End of Epoch 6/30, Average Loss=0.003585
+Epoch 6, Batch 10/281, Loss=0.977068
+Epoch 6, Batch 20/281, Loss=1.031912
+Epoch 6, Batch 30/281, Loss=1.027746
+Epoch 6, Batch 40/281, Loss=1.059170
+Epoch 6, Batch 50/281, Loss=0.954543
+Epoch 6, Batch 60/281, Loss=0.990426
+Epoch 6, Batch 70/281, Loss=1.043110
+Epoch 6, Batch 80/281, Loss=1.032446
+Epoch 6, Batch 90/281, Loss=0.946243
+Epoch 6, Batch 100/281, Loss=0.981979
+Epoch 6, Batch 110/281, Loss=1.015699
+Epoch 6, Batch 120/281, Loss=0.968708
+Epoch 6, Batch 130/281, Loss=1.022689
+Epoch 6, Batch 140/281, Loss=0.966946
+Epoch 6, Batch 150/281, Loss=1.047166
+Epoch 6, Batch 160/281, Loss=1.041512
+Epoch 6, Batch 170/281, Loss=0.947256
+Epoch 6, Batch 180/281, Loss=1.004809
+Epoch 6, Batch 190/281, Loss=1.046335
+Epoch 6, Batch 200/281, Loss=1.026257
+Epoch 6, Batch 210/281, Loss=1.035294
+Epoch 6, Batch 220/281, Loss=0.998782
+Epoch 6, Batch 230/281, Loss=1.033648
+Epoch 6, Batch 240/281, Loss=1.046358
+Epoch 6, Batch 250/281, Loss=1.048916
+Epoch 6, Batch 260/281, Loss=1.036256
+Epoch 6, Batch 270/281, Loss=1.010882
+Epoch 6, Batch 280/281, Loss=0.984450
+End of Epoch 6/30, Average Loss=0.003598
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.713728
-Mean Acc: 0.704643
-FreqW Acc: 0.587800
-Mean IoU: 0.564028
+Overall Acc: 0.714565
+Mean Acc: 0.709207
+FreqW Acc: 0.584813
+Mean IoU: 0.567197
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 7, lr = 0.000100
-Epoch 7, Batch 10/281, Loss=0.978511
-Epoch 7, Batch 20/281, Loss=0.994318
-Epoch 7, Batch 30/281, Loss=1.020305
-Epoch 7, Batch 40/281, Loss=0.935581
-Epoch 7, Batch 50/281, Loss=0.962991
-Epoch 7, Batch 60/281, Loss=0.993764
-Epoch 7, Batch 70/281, Loss=1.075680
-Epoch 7, Batch 80/281, Loss=0.998270
-Epoch 7, Batch 90/281, Loss=0.933102
-Epoch 7, Batch 100/281, Loss=1.074165
-Epoch 7, Batch 110/281, Loss=0.984358
-Epoch 7, Batch 120/281, Loss=0.976133
-Epoch 7, Batch 130/281, Loss=1.029018
-Epoch 7, Batch 140/281, Loss=0.976940
-Epoch 7, Batch 150/281, Loss=0.974255
-Epoch 7, Batch 160/281, Loss=1.008953
-Epoch 7, Batch 170/281, Loss=1.012233
-Epoch 7, Batch 180/281, Loss=1.009498
-Epoch 7, Batch 190/281, Loss=1.024230
-Epoch 7, Batch 200/281, Loss=0.959099
-Epoch 7, Batch 210/281, Loss=0.997922
-Epoch 7, Batch 220/281, Loss=0.972320
-Epoch 7, Batch 230/281, Loss=1.002176
-Epoch 7, Batch 240/281, Loss=0.991253
-Epoch 7, Batch 250/281, Loss=0.939469
-Epoch 7, Batch 260/281, Loss=1.014014
-Epoch 7, Batch 270/281, Loss=0.993081
-Epoch 7, Batch 280/281, Loss=1.011462
-End of Epoch 7/30, Average Loss=0.003538
+Epoch 7, Batch 10/281, Loss=1.000885
+Epoch 7, Batch 20/281, Loss=1.000911
+Epoch 7, Batch 30/281, Loss=1.017764
+Epoch 7, Batch 40/281, Loss=0.925294
+Epoch 7, Batch 50/281, Loss=0.949401
+Epoch 7, Batch 60/281, Loss=0.993867
+Epoch 7, Batch 70/281, Loss=1.051033
+Epoch 7, Batch 80/281, Loss=0.993128
+Epoch 7, Batch 90/281, Loss=0.926793
+Epoch 7, Batch 100/281, Loss=1.040365
+Epoch 7, Batch 110/281, Loss=0.963868
+Epoch 7, Batch 120/281, Loss=0.996844
+Epoch 7, Batch 130/281, Loss=1.015809
+Epoch 7, Batch 140/281, Loss=0.977799
+Epoch 7, Batch 150/281, Loss=0.981225
+Epoch 7, Batch 160/281, Loss=1.005363
+Epoch 7, Batch 170/281, Loss=0.994752
+Epoch 7, Batch 180/281, Loss=1.005571
+Epoch 7, Batch 190/281, Loss=1.016410
+Epoch 7, Batch 200/281, Loss=0.963313
+Epoch 7, Batch 210/281, Loss=0.994820
+Epoch 7, Batch 220/281, Loss=0.973197
+Epoch 7, Batch 230/281, Loss=0.999629
+Epoch 7, Batch 240/281, Loss=0.992969
+Epoch 7, Batch 250/281, Loss=0.945424
+Epoch 7, Batch 260/281, Loss=1.030942
+Epoch 7, Batch 270/281, Loss=0.997901
+Epoch 7, Batch 280/281, Loss=1.006426
+End of Epoch 7/30, Average Loss=0.003528
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.725865
-Mean Acc: 0.722600
-FreqW Acc: 0.604313
-Mean IoU: 0.589817
+Overall Acc: 0.728097
+Mean Acc: 0.722836
+FreqW Acc: 0.602963
+Mean IoU: 0.584368
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 8, lr = 0.000100
-Epoch 8, Batch 10/281, Loss=0.980251
-Epoch 8, Batch 20/281, Loss=1.015656
-Epoch 8, Batch 30/281, Loss=0.997279
-Epoch 8, Batch 40/281, Loss=0.962748
-Epoch 8, Batch 50/281, Loss=1.000027
-Epoch 8, Batch 60/281, Loss=1.030773
-Epoch 8, Batch 70/281, Loss=0.950392
-Epoch 8, Batch 80/281, Loss=0.973156
-Epoch 8, Batch 90/281, Loss=0.998460
-Epoch 8, Batch 100/281, Loss=0.971572
-Epoch 8, Batch 110/281, Loss=0.969930
-Epoch 8, Batch 120/281, Loss=0.917121
-Epoch 8, Batch 130/281, Loss=1.000485
-Epoch 8, Batch 140/281, Loss=0.953922
-Epoch 8, Batch 150/281, Loss=0.942481
-Epoch 8, Batch 160/281, Loss=0.978588
-Epoch 8, Batch 170/281, Loss=0.891223
-Epoch 8, Batch 180/281, Loss=0.980640
-Epoch 8, Batch 190/281, Loss=0.936769
-Epoch 8, Batch 200/281, Loss=0.996928
-Epoch 8, Batch 210/281, Loss=0.975034
-Epoch 8, Batch 220/281, Loss=1.031278
-Epoch 8, Batch 230/281, Loss=1.019872
-Epoch 8, Batch 240/281, Loss=0.968543
-Epoch 8, Batch 250/281, Loss=0.981461
-Epoch 8, Batch 260/281, Loss=1.020116
-Epoch 8, Batch 270/281, Loss=0.992100
-Epoch 8, Batch 280/281, Loss=0.971046
-End of Epoch 8/30, Average Loss=0.003482
+Epoch 8, Batch 10/281, Loss=0.993975
+Epoch 8, Batch 20/281, Loss=1.023865
+Epoch 8, Batch 30/281, Loss=0.988801
+Epoch 8, Batch 40/281, Loss=0.946957
+Epoch 8, Batch 50/281, Loss=0.986489
+Epoch 8, Batch 60/281, Loss=1.017113
+Epoch 8, Batch 70/281, Loss=0.944114
+Epoch 8, Batch 80/281, Loss=0.967879
+Epoch 8, Batch 90/281, Loss=1.017174
+Epoch 8, Batch 100/281, Loss=0.977818
+Epoch 8, Batch 110/281, Loss=0.976112
+Epoch 8, Batch 120/281, Loss=0.931030
+Epoch 8, Batch 130/281, Loss=0.995882
+Epoch 8, Batch 140/281, Loss=0.975308
+Epoch 8, Batch 150/281, Loss=0.941056
+Epoch 8, Batch 160/281, Loss=0.975596
+Epoch 8, Batch 170/281, Loss=0.885035
+Epoch 8, Batch 180/281, Loss=0.987412
+Epoch 8, Batch 190/281, Loss=0.938362
+Epoch 8, Batch 200/281, Loss=0.995216
+Epoch 8, Batch 210/281, Loss=0.970836
+Epoch 8, Batch 220/281, Loss=1.037046
+Epoch 8, Batch 230/281, Loss=1.019859
+Epoch 8, Batch 240/281, Loss=0.983810
+Epoch 8, Batch 250/281, Loss=0.983079
+Epoch 8, Batch 260/281, Loss=1.015399
+Epoch 8, Batch 270/281, Loss=0.995145
+Epoch 8, Batch 280/281, Loss=0.968309
+End of Epoch 8/30, Average Loss=0.003486
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.722935
-Mean Acc: 0.718738
-FreqW Acc: 0.596534
-Mean IoU: 0.583104
+Overall Acc: 0.724958
+Mean Acc: 0.713123
+FreqW Acc: 0.600292
+Mean IoU: 0.578252
 
 Epoch 9, lr = 0.000100
-Epoch 9, Batch 10/281, Loss=0.982886
-Epoch 9, Batch 20/281, Loss=0.962385
-Epoch 9, Batch 30/281, Loss=0.996107
-Epoch 9, Batch 40/281, Loss=0.942313
-Epoch 9, Batch 50/281, Loss=0.979559
-Epoch 9, Batch 60/281, Loss=1.003104
-Epoch 9, Batch 70/281, Loss=0.978464
-Epoch 9, Batch 80/281, Loss=0.989284
-Epoch 9, Batch 90/281, Loss=0.925664
-Epoch 9, Batch 100/281, Loss=1.025173
-Epoch 9, Batch 110/281, Loss=1.002125
-Epoch 9, Batch 120/281, Loss=0.934494
-Epoch 9, Batch 130/281, Loss=1.016672
-Epoch 9, Batch 140/281, Loss=0.919483
-Epoch 9, Batch 150/281, Loss=0.902373
-Epoch 9, Batch 160/281, Loss=0.927094
-Epoch 9, Batch 170/281, Loss=1.010853
-Epoch 9, Batch 180/281, Loss=0.916368
-Epoch 9, Batch 190/281, Loss=0.956013
-Epoch 9, Batch 200/281, Loss=0.977662
-Epoch 9, Batch 210/281, Loss=1.033477
-Epoch 9, Batch 220/281, Loss=0.981420
-Epoch 9, Batch 230/281, Loss=0.967709
-Epoch 9, Batch 240/281, Loss=0.982517
-Epoch 9, Batch 250/281, Loss=1.004916
-Epoch 9, Batch 260/281, Loss=1.035868
-Epoch 9, Batch 270/281, Loss=1.019446
-Epoch 9, Batch 280/281, Loss=0.983943
-End of Epoch 9/30, Average Loss=0.003475
+Epoch 9, Batch 10/281, Loss=0.982235
+Epoch 9, Batch 20/281, Loss=0.965295
+Epoch 9, Batch 30/281, Loss=0.983825
+Epoch 9, Batch 40/281, Loss=0.927302
+Epoch 9, Batch 50/281, Loss=0.963436
+Epoch 9, Batch 60/281, Loss=0.996812
+Epoch 9, Batch 70/281, Loss=0.953534
+Epoch 9, Batch 80/281, Loss=0.985912
+Epoch 9, Batch 90/281, Loss=0.938783
+Epoch 9, Batch 100/281, Loss=1.021386
+Epoch 9, Batch 110/281, Loss=0.995745
+Epoch 9, Batch 120/281, Loss=0.926794
+Epoch 9, Batch 130/281, Loss=1.022747
+Epoch 9, Batch 140/281, Loss=0.919539
+Epoch 9, Batch 150/281, Loss=0.876730
+Epoch 9, Batch 160/281, Loss=0.923565
+Epoch 9, Batch 170/281, Loss=0.990460
+Epoch 9, Batch 180/281, Loss=0.922064
+Epoch 9, Batch 190/281, Loss=0.954263
+Epoch 9, Batch 200/281, Loss=0.963724
+Epoch 9, Batch 210/281, Loss=1.031400
+Epoch 9, Batch 220/281, Loss=0.997999
+Epoch 9, Batch 230/281, Loss=0.965633
+Epoch 9, Batch 240/281, Loss=0.987501
+Epoch 9, Batch 250/281, Loss=0.989915
+Epoch 9, Batch 260/281, Loss=1.017454
+Epoch 9, Batch 270/281, Loss=1.003688
+Epoch 9, Batch 280/281, Loss=0.940304
+End of Epoch 9/30, Average Loss=0.003448
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.717425
-Mean Acc: 0.706930
-FreqW Acc: 0.590995
-Mean IoU: 0.567435
+Overall Acc: 0.722517
+Mean Acc: 0.715803
+FreqW Acc: 0.598910
+Mean IoU: 0.578712
 
 Epoch 10, lr = 0.000100
-Epoch 10, Batch 10/281, Loss=1.063040
-Epoch 10, Batch 20/281, Loss=0.979172
-Epoch 10, Batch 30/281, Loss=0.987637
-Epoch 10, Batch 40/281, Loss=1.029077
-Epoch 10, Batch 50/281, Loss=0.929699
-Epoch 10, Batch 60/281, Loss=0.911051
-Epoch 10, Batch 70/281, Loss=0.943347
-Epoch 10, Batch 80/281, Loss=0.931582
-Epoch 10, Batch 90/281, Loss=0.927238
-Epoch 10, Batch 100/281, Loss=1.008386
-Epoch 10, Batch 110/281, Loss=0.938519
-Epoch 10, Batch 120/281, Loss=1.001552
-Epoch 10, Batch 130/281, Loss=1.089488
-Epoch 10, Batch 140/281, Loss=0.951695
-Epoch 10, Batch 150/281, Loss=1.024625
-Epoch 10, Batch 160/281, Loss=1.002394
-Epoch 10, Batch 170/281, Loss=0.949955
-Epoch 10, Batch 180/281, Loss=0.939715
-Epoch 10, Batch 190/281, Loss=0.994587
-Epoch 10, Batch 200/281, Loss=0.924178
-Epoch 10, Batch 210/281, Loss=1.050944
-Epoch 10, Batch 220/281, Loss=0.991820
-Epoch 10, Batch 230/281, Loss=1.002972
-Epoch 10, Batch 240/281, Loss=0.969205
-Epoch 10, Batch 250/281, Loss=0.995293
-Epoch 10, Batch 260/281, Loss=0.978057
-Epoch 10, Batch 270/281, Loss=1.025867
-Epoch 10, Batch 280/281, Loss=1.023392
-End of Epoch 10/30, Average Loss=0.003503
+Epoch 10, Batch 10/281, Loss=1.032088
+Epoch 10, Batch 20/281, Loss=0.921660
+Epoch 10, Batch 30/281, Loss=0.999555
+Epoch 10, Batch 40/281, Loss=1.013997
+Epoch 10, Batch 50/281, Loss=0.940602
+Epoch 10, Batch 60/281, Loss=0.899562
+Epoch 10, Batch 70/281, Loss=0.944499
+Epoch 10, Batch 80/281, Loss=0.932844
+Epoch 10, Batch 90/281, Loss=0.913525
+Epoch 10, Batch 100/281, Loss=1.005286
+Epoch 10, Batch 110/281, Loss=0.937967
+Epoch 10, Batch 120/281, Loss=1.010995
+Epoch 10, Batch 130/281, Loss=1.070857
+Epoch 10, Batch 140/281, Loss=0.942488
+Epoch 10, Batch 150/281, Loss=1.041280
+Epoch 10, Batch 160/281, Loss=1.001756
+Epoch 10, Batch 170/281, Loss=0.924937
+Epoch 10, Batch 180/281, Loss=0.916578
+Epoch 10, Batch 190/281, Loss=0.998551
+Epoch 10, Batch 200/281, Loss=0.935882
+Epoch 10, Batch 210/281, Loss=1.074832
+Epoch 10, Batch 220/281, Loss=0.995723
+Epoch 10, Batch 230/281, Loss=1.016834
+Epoch 10, Batch 240/281, Loss=0.945512
+Epoch 10, Batch 250/281, Loss=0.993812
+Epoch 10, Batch 260/281, Loss=0.991759
+Epoch 10, Batch 270/281, Loss=1.037836
+Epoch 10, Batch 280/281, Loss=1.021476
+End of Epoch 10/30, Average Loss=0.003491
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.704729
-Mean Acc: 0.698264
-FreqW Acc: 0.580305
-Mean IoU: 0.560730
+Overall Acc: 0.707241
+Mean Acc: 0.699883
+FreqW Acc: 0.584906
+Mean IoU: 0.561859
 
 Epoch 11, lr = 0.000100
-Epoch 11, Batch 10/281, Loss=0.997258
-Epoch 11, Batch 20/281, Loss=1.004544
-Epoch 11, Batch 30/281, Loss=0.976746
-Epoch 11, Batch 40/281, Loss=1.029687
-Epoch 11, Batch 50/281, Loss=0.875301
-Epoch 11, Batch 60/281, Loss=0.957581
-Epoch 11, Batch 70/281, Loss=0.983406
-Epoch 11, Batch 80/281, Loss=0.954098
-Epoch 11, Batch 90/281, Loss=0.900075
-Epoch 11, Batch 100/281, Loss=1.020065
-Epoch 11, Batch 110/281, Loss=0.960137
-Epoch 11, Batch 120/281, Loss=0.933542
-Epoch 11, Batch 130/281, Loss=0.944969
-Epoch 11, Batch 140/281, Loss=0.994203
-Epoch 11, Batch 150/281, Loss=0.946577
-Epoch 11, Batch 160/281, Loss=0.982919
-Epoch 11, Batch 170/281, Loss=1.009541
-Epoch 11, Batch 180/281, Loss=0.981417
-Epoch 11, Batch 190/281, Loss=1.039509
-Epoch 11, Batch 200/281, Loss=1.014632
-Epoch 11, Batch 210/281, Loss=0.979959
-Epoch 11, Batch 220/281, Loss=0.987980
-Epoch 11, Batch 230/281, Loss=0.991309
-Epoch 11, Batch 240/281, Loss=0.939568
-Epoch 11, Batch 250/281, Loss=1.012296
-Epoch 11, Batch 260/281, Loss=1.022110
-Epoch 11, Batch 270/281, Loss=1.022377
-Epoch 11, Batch 280/281, Loss=0.990868
-End of Epoch 11/30, Average Loss=0.003489
+Epoch 11, Batch 10/281, Loss=1.000328
+Epoch 11, Batch 20/281, Loss=1.023723
+Epoch 11, Batch 30/281, Loss=0.984376
+Epoch 11, Batch 40/281, Loss=1.024508
+Epoch 11, Batch 50/281, Loss=0.882607
+Epoch 11, Batch 60/281, Loss=0.963574
+Epoch 11, Batch 70/281, Loss=0.984184
+Epoch 11, Batch 80/281, Loss=0.972161
+Epoch 11, Batch 90/281, Loss=0.930985
+Epoch 11, Batch 100/281, Loss=1.025087
+Epoch 11, Batch 110/281, Loss=0.959737
+Epoch 11, Batch 120/281, Loss=0.948726
+Epoch 11, Batch 130/281, Loss=0.950254
+Epoch 11, Batch 140/281, Loss=1.000330
+Epoch 11, Batch 150/281, Loss=0.946824
+Epoch 11, Batch 160/281, Loss=0.979771
+Epoch 11, Batch 170/281, Loss=1.023778
+Epoch 11, Batch 180/281, Loss=1.004834
+Epoch 11, Batch 190/281, Loss=1.034614
+Epoch 11, Batch 200/281, Loss=1.017248
+Epoch 11, Batch 210/281, Loss=0.969278
+Epoch 11, Batch 220/281, Loss=0.990643
+Epoch 11, Batch 230/281, Loss=0.985043
+Epoch 11, Batch 240/281, Loss=0.940190
+Epoch 11, Batch 250/281, Loss=0.982198
+Epoch 11, Batch 260/281, Loss=1.022012
+Epoch 11, Batch 270/281, Loss=1.002189
+Epoch 11, Batch 280/281, Loss=0.963710
+End of Epoch 11/30, Average Loss=0.003496
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.706543
-Mean Acc: 0.695377
-FreqW Acc: 0.583681
-Mean IoU: 0.560374
+Overall Acc: 0.697475
+Mean Acc: 0.688282
+FreqW Acc: 0.574877
+Mean IoU: 0.556764
 
 Epoch 12, lr = 0.000100
-Epoch 12, Batch 10/281, Loss=0.905660
-Epoch 12, Batch 20/281, Loss=1.004983
-Epoch 12, Batch 30/281, Loss=0.936152
-Epoch 12, Batch 40/281, Loss=0.990771
-Epoch 12, Batch 50/281, Loss=0.909654
-Epoch 12, Batch 60/281, Loss=0.915542
-Epoch 12, Batch 70/281, Loss=0.961136
-Epoch 12, Batch 80/281, Loss=1.053481
-Epoch 12, Batch 90/281, Loss=0.980667
-Epoch 12, Batch 100/281, Loss=0.943434
-Epoch 12, Batch 110/281, Loss=1.014611
-Epoch 12, Batch 120/281, Loss=0.936118
-Epoch 12, Batch 130/281, Loss=0.959440
-Epoch 12, Batch 140/281, Loss=0.943848
-Epoch 12, Batch 150/281, Loss=1.025403
-Epoch 12, Batch 160/281, Loss=0.991539
-Epoch 12, Batch 170/281, Loss=0.963517
-Epoch 12, Batch 180/281, Loss=0.998028
-Epoch 12, Batch 190/281, Loss=0.975419
-Epoch 12, Batch 200/281, Loss=1.030312
-Epoch 12, Batch 210/281, Loss=0.944296
-Epoch 12, Batch 220/281, Loss=0.890258
-Epoch 12, Batch 230/281, Loss=1.029303
-Epoch 12, Batch 240/281, Loss=0.902635
-Epoch 12, Batch 250/281, Loss=1.023885
-Epoch 12, Batch 260/281, Loss=0.958964
-Epoch 12, Batch 270/281, Loss=0.933539
-Epoch 12, Batch 280/281, Loss=0.998809
-End of Epoch 12/30, Average Loss=0.003444
+Epoch 12, Batch 10/281, Loss=0.892221
+Epoch 12, Batch 20/281, Loss=1.010090
+Epoch 12, Batch 30/281, Loss=0.941131
+Epoch 12, Batch 40/281, Loss=0.992959
+Epoch 12, Batch 50/281, Loss=0.916911
+Epoch 12, Batch 60/281, Loss=0.925188
+Epoch 12, Batch 70/281, Loss=0.983118
+Epoch 12, Batch 80/281, Loss=1.074226
+Epoch 12, Batch 90/281, Loss=0.992129
+Epoch 12, Batch 100/281, Loss=0.953673
+Epoch 12, Batch 110/281, Loss=1.004673
+Epoch 12, Batch 120/281, Loss=0.926657
+Epoch 12, Batch 130/281, Loss=0.966128
+Epoch 12, Batch 140/281, Loss=0.945461
+Epoch 12, Batch 150/281, Loss=1.021457
+Epoch 12, Batch 160/281, Loss=1.005704
+Epoch 12, Batch 170/281, Loss=0.954047
+Epoch 12, Batch 180/281, Loss=0.996719
+Epoch 12, Batch 190/281, Loss=0.969842
+Epoch 12, Batch 200/281, Loss=1.037451
+Epoch 12, Batch 210/281, Loss=0.970455
+Epoch 12, Batch 220/281, Loss=0.912403
+Epoch 12, Batch 230/281, Loss=1.038842
+Epoch 12, Batch 240/281, Loss=0.917752
+Epoch 12, Batch 250/281, Loss=1.072463
+Epoch 12, Batch 260/281, Loss=0.967727
+Epoch 12, Batch 270/281, Loss=0.972716
+Epoch 12, Batch 280/281, Loss=1.023198
+End of Epoch 12/30, Average Loss=0.003478
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.712751
-Mean Acc: 0.708246
-FreqW Acc: 0.588280
-Mean IoU: 0.568948
+Overall Acc: 0.710310
+Mean Acc: 0.697426
+FreqW Acc: 0.584262
+Mean IoU: 0.558693
 
 Epoch 13, lr = 0.000100
-Epoch 13, Batch 10/281, Loss=1.017102
-Epoch 13, Batch 20/281, Loss=0.960278
-Epoch 13, Batch 30/281, Loss=0.984902
-Epoch 13, Batch 40/281, Loss=1.002375
-Epoch 13, Batch 50/281, Loss=1.023377
-Epoch 13, Batch 60/281, Loss=0.959334
-Epoch 13, Batch 70/281, Loss=0.952650
-Epoch 13, Batch 80/281, Loss=0.962829
-Epoch 13, Batch 90/281, Loss=0.982050
-Epoch 13, Batch 100/281, Loss=0.991524
-Epoch 13, Batch 110/281, Loss=1.013447
-Epoch 13, Batch 120/281, Loss=0.926935
-Epoch 13, Batch 130/281, Loss=0.939299
-Epoch 13, Batch 140/281, Loss=0.994915
-Epoch 13, Batch 150/281, Loss=0.943270
-Epoch 13, Batch 160/281, Loss=1.020154
-Epoch 13, Batch 170/281, Loss=0.999358
-Epoch 13, Batch 180/281, Loss=1.005970
-Epoch 13, Batch 190/281, Loss=0.936374
-Epoch 13, Batch 200/281, Loss=0.936899
-Epoch 13, Batch 210/281, Loss=0.933629
-Epoch 13, Batch 220/281, Loss=0.980611
-Epoch 13, Batch 230/281, Loss=0.937385
-Epoch 13, Batch 240/281, Loss=0.953354
-Epoch 13, Batch 250/281, Loss=0.913170
-Epoch 13, Batch 260/281, Loss=0.980406
-Epoch 13, Batch 270/281, Loss=0.961415
-Epoch 13, Batch 280/281, Loss=1.008924
-End of Epoch 13/30, Average Loss=0.003460
+Epoch 13, Batch 10/281, Loss=1.036032
+Epoch 13, Batch 20/281, Loss=0.962838
+Epoch 13, Batch 30/281, Loss=0.991649
+Epoch 13, Batch 40/281, Loss=1.020516
+Epoch 13, Batch 50/281, Loss=1.024715
+Epoch 13, Batch 60/281, Loss=0.946302
+Epoch 13, Batch 70/281, Loss=0.967542
+Epoch 13, Batch 80/281, Loss=0.969557
+Epoch 13, Batch 90/281, Loss=0.992407
+Epoch 13, Batch 100/281, Loss=0.998821
+Epoch 13, Batch 110/281, Loss=1.009875
+Epoch 13, Batch 120/281, Loss=0.908038
+Epoch 13, Batch 130/281, Loss=0.935001
+Epoch 13, Batch 140/281, Loss=0.988519
+Epoch 13, Batch 150/281, Loss=0.931065
+Epoch 13, Batch 160/281, Loss=1.034756
+Epoch 13, Batch 170/281, Loss=0.980058
+Epoch 13, Batch 180/281, Loss=1.026458
+Epoch 13, Batch 190/281, Loss=0.959852
+Epoch 13, Batch 200/281, Loss=0.962350
+Epoch 13, Batch 210/281, Loss=0.962986
+Epoch 13, Batch 220/281, Loss=1.019903
+Epoch 13, Batch 230/281, Loss=0.938998
+Epoch 13, Batch 240/281, Loss=0.967590
+Epoch 13, Batch 250/281, Loss=0.954842
+Epoch 13, Batch 260/281, Loss=0.958063
+Epoch 13, Batch 270/281, Loss=0.985062
+Epoch 13, Batch 280/281, Loss=1.014801
+End of Epoch 13/30, Average Loss=0.003489
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.728167
-Mean Acc: 0.725213
-FreqW Acc: 0.602857
-Mean IoU: 0.587836
+Overall Acc: 0.704171
+Mean Acc: 0.697108
+FreqW Acc: 0.575185
+Mean IoU: 0.554472
 
-Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 14, lr = 0.000010
-Epoch 14, Batch 10/281, Loss=0.875583
-Epoch 14, Batch 20/281, Loss=0.947393
-Epoch 14, Batch 30/281, Loss=0.909181
-Epoch 14, Batch 40/281, Loss=0.933633
-Epoch 14, Batch 50/281, Loss=1.005048
-Epoch 14, Batch 60/281, Loss=0.895939
-Epoch 14, Batch 70/281, Loss=0.987059
-Epoch 14, Batch 80/281, Loss=0.930411
-Epoch 14, Batch 90/281, Loss=0.950495
-Epoch 14, Batch 100/281, Loss=0.898230
-Epoch 14, Batch 110/281, Loss=0.914648
-Epoch 14, Batch 120/281, Loss=0.916972
-Epoch 14, Batch 130/281, Loss=0.890468
-Epoch 14, Batch 140/281, Loss=0.903365
-Epoch 14, Batch 150/281, Loss=0.921495
-Epoch 14, Batch 160/281, Loss=0.835214
-Epoch 14, Batch 170/281, Loss=0.944949
-Epoch 14, Batch 180/281, Loss=0.888428
-Epoch 14, Batch 190/281, Loss=0.899968
-Epoch 14, Batch 200/281, Loss=0.892487
-Epoch 14, Batch 210/281, Loss=0.940304
-Epoch 14, Batch 220/281, Loss=0.939294
-Epoch 14, Batch 230/281, Loss=0.858339
-Epoch 14, Batch 240/281, Loss=0.914166
-Epoch 14, Batch 250/281, Loss=0.917298
-Epoch 14, Batch 260/281, Loss=0.886851
-Epoch 14, Batch 270/281, Loss=0.937945
-Epoch 14, Batch 280/281, Loss=0.906190
-End of Epoch 14/30, Average Loss=0.003261
+Epoch 14, Batch 10/281, Loss=0.890390
+Epoch 14, Batch 20/281, Loss=0.976463
+Epoch 14, Batch 30/281, Loss=0.927471
+Epoch 14, Batch 40/281, Loss=0.940325
+Epoch 14, Batch 50/281, Loss=1.002217
+Epoch 14, Batch 60/281, Loss=0.903230
+Epoch 14, Batch 70/281, Loss=0.986381
+Epoch 14, Batch 80/281, Loss=0.931404
+Epoch 14, Batch 90/281, Loss=0.946580
+Epoch 14, Batch 100/281, Loss=0.906346
+Epoch 14, Batch 110/281, Loss=0.920794
+Epoch 14, Batch 120/281, Loss=0.916005
+Epoch 14, Batch 130/281, Loss=0.897907
+Epoch 14, Batch 140/281, Loss=0.896193
+Epoch 14, Batch 150/281, Loss=0.924975
+Epoch 14, Batch 160/281, Loss=0.824393
+Epoch 14, Batch 170/281, Loss=0.934702
+Epoch 14, Batch 180/281, Loss=0.886369
+Epoch 14, Batch 190/281, Loss=0.903450
+Epoch 14, Batch 200/281, Loss=0.901038
+Epoch 14, Batch 210/281, Loss=0.937563
+Epoch 14, Batch 220/281, Loss=0.937509
+Epoch 14, Batch 230/281, Loss=0.856130
+Epoch 14, Batch 240/281, Loss=0.902442
+Epoch 14, Batch 250/281, Loss=0.921583
+Epoch 14, Batch 260/281, Loss=0.885890
+Epoch 14, Batch 270/281, Loss=0.935159
+Epoch 14, Batch 280/281, Loss=0.907981
+End of Epoch 14/30, Average Loss=0.003269
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.755859
-Mean Acc: 0.757591
-FreqW Acc: 0.638103
-Mean IoU: 0.627826
+Overall Acc: 0.751814
+Mean Acc: 0.752086
+FreqW Acc: 0.634262
+Mean IoU: 0.621373
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 15, lr = 0.000010
-Epoch 15, Batch 10/281, Loss=0.916650
-Epoch 15, Batch 20/281, Loss=0.832037
-Epoch 15, Batch 30/281, Loss=0.915700
-Epoch 15, Batch 40/281, Loss=0.882830
-Epoch 15, Batch 50/281, Loss=0.915644
-Epoch 15, Batch 60/281, Loss=0.893150
-Epoch 15, Batch 70/281, Loss=0.868280
-Epoch 15, Batch 80/281, Loss=0.906351
-Epoch 15, Batch 90/281, Loss=0.923950
-Epoch 15, Batch 100/281, Loss=0.861131
-Epoch 15, Batch 110/281, Loss=0.899335
-Epoch 15, Batch 120/281, Loss=0.892130
-Epoch 15, Batch 130/281, Loss=0.892739
-Epoch 15, Batch 140/281, Loss=0.936433
-Epoch 15, Batch 150/281, Loss=0.882665
-Epoch 15, Batch 160/281, Loss=0.850045
-Epoch 15, Batch 170/281, Loss=0.856107
-Epoch 15, Batch 180/281, Loss=0.874670
-Epoch 15, Batch 190/281, Loss=0.843865
-Epoch 15, Batch 200/281, Loss=0.897829
-Epoch 15, Batch 210/281, Loss=0.884450
-Epoch 15, Batch 220/281, Loss=0.888219
-Epoch 15, Batch 230/281, Loss=0.898063
-Epoch 15, Batch 240/281, Loss=0.883694
-Epoch 15, Batch 250/281, Loss=0.908024
-Epoch 15, Batch 260/281, Loss=0.894910
-Epoch 15, Batch 270/281, Loss=0.901007
-Epoch 15, Batch 280/281, Loss=0.920240
-End of Epoch 15/30, Average Loss=0.003166
+Epoch 15, Batch 10/281, Loss=0.917730
+Epoch 15, Batch 20/281, Loss=0.833536
+Epoch 15, Batch 30/281, Loss=0.919965
+Epoch 15, Batch 40/281, Loss=0.882647
+Epoch 15, Batch 50/281, Loss=0.916751
+Epoch 15, Batch 60/281, Loss=0.899585
+Epoch 15, Batch 70/281, Loss=0.869410
+Epoch 15, Batch 80/281, Loss=0.908838
+Epoch 15, Batch 90/281, Loss=0.927367
+Epoch 15, Batch 100/281, Loss=0.865441
+Epoch 15, Batch 110/281, Loss=0.901902
+Epoch 15, Batch 120/281, Loss=0.897411
+Epoch 15, Batch 130/281, Loss=0.895758
+Epoch 15, Batch 140/281, Loss=0.945770
+Epoch 15, Batch 150/281, Loss=0.883449
+Epoch 15, Batch 160/281, Loss=0.848238
+Epoch 15, Batch 170/281, Loss=0.853555
+Epoch 15, Batch 180/281, Loss=0.873738
+Epoch 15, Batch 190/281, Loss=0.840253
+Epoch 15, Batch 200/281, Loss=0.898716
+Epoch 15, Batch 210/281, Loss=0.880101
+Epoch 15, Batch 220/281, Loss=0.878967
+Epoch 15, Batch 230/281, Loss=0.897638
+Epoch 15, Batch 240/281, Loss=0.882651
+Epoch 15, Batch 250/281, Loss=0.906952
+Epoch 15, Batch 260/281, Loss=0.894916
+Epoch 15, Batch 270/281, Loss=0.890402
+Epoch 15, Batch 280/281, Loss=0.932896
+End of Epoch 15/30, Average Loss=0.003170
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.757673
-Mean Acc: 0.757894
-FreqW Acc: 0.640120
-Mean IoU: 0.628762
+Overall Acc: 0.755929
+Mean Acc: 0.755750
+FreqW Acc: 0.638841
+Mean IoU: 0.625669
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 16, lr = 0.000010
-Epoch 16, Batch 10/281, Loss=0.880233
-Epoch 16, Batch 20/281, Loss=0.851607
-Epoch 16, Batch 30/281, Loss=0.864155
-Epoch 16, Batch 40/281, Loss=0.799803
-Epoch 16, Batch 50/281, Loss=0.881239
-Epoch 16, Batch 60/281, Loss=0.832523
-Epoch 16, Batch 70/281, Loss=0.896941
-Epoch 16, Batch 80/281, Loss=0.835158
-Epoch 16, Batch 90/281, Loss=0.950921
-Epoch 16, Batch 100/281, Loss=0.945893
-Epoch 16, Batch 110/281, Loss=0.917986
-Epoch 16, Batch 120/281, Loss=0.842515
-Epoch 16, Batch 130/281, Loss=0.927829
-Epoch 16, Batch 140/281, Loss=0.851125
-Epoch 16, Batch 150/281, Loss=0.881499
-Epoch 16, Batch 160/281, Loss=0.861768
-Epoch 16, Batch 170/281, Loss=0.863966
-Epoch 16, Batch 180/281, Loss=0.864041
-Epoch 16, Batch 190/281, Loss=0.909908
-Epoch 16, Batch 200/281, Loss=0.935300
-Epoch 16, Batch 210/281, Loss=0.895741
-Epoch 16, Batch 220/281, Loss=0.850903
-Epoch 16, Batch 230/281, Loss=0.890292
-Epoch 16, Batch 240/281, Loss=0.815157
-Epoch 16, Batch 250/281, Loss=0.911176
-Epoch 16, Batch 260/281, Loss=0.888398
-Epoch 16, Batch 270/281, Loss=0.903069
-Epoch 16, Batch 280/281, Loss=0.870921
-End of Epoch 16/30, Average Loss=0.003128
+Epoch 16, Batch 10/281, Loss=0.880937
+Epoch 16, Batch 20/281, Loss=0.854110
+Epoch 16, Batch 30/281, Loss=0.864240
+Epoch 16, Batch 40/281, Loss=0.795262
+Epoch 16, Batch 50/281, Loss=0.882518
+Epoch 16, Batch 60/281, Loss=0.837646
+Epoch 16, Batch 70/281, Loss=0.898509
+Epoch 16, Batch 80/281, Loss=0.835885
+Epoch 16, Batch 90/281, Loss=0.951108
+Epoch 16, Batch 100/281, Loss=0.947943
+Epoch 16, Batch 110/281, Loss=0.912752
+Epoch 16, Batch 120/281, Loss=0.839133
+Epoch 16, Batch 130/281, Loss=0.934872
+Epoch 16, Batch 140/281, Loss=0.852559
+Epoch 16, Batch 150/281, Loss=0.885818
+Epoch 16, Batch 160/281, Loss=0.857757
+Epoch 16, Batch 170/281, Loss=0.859726
+Epoch 16, Batch 180/281, Loss=0.869305
+Epoch 16, Batch 190/281, Loss=0.915902
+Epoch 16, Batch 200/281, Loss=0.939640
+Epoch 16, Batch 210/281, Loss=0.891413
+Epoch 16, Batch 220/281, Loss=0.855717
+Epoch 16, Batch 230/281, Loss=0.891167
+Epoch 16, Batch 240/281, Loss=0.817275
+Epoch 16, Batch 250/281, Loss=0.911461
+Epoch 16, Batch 260/281, Loss=0.889695
+Epoch 16, Batch 270/281, Loss=0.906069
+Epoch 16, Batch 280/281, Loss=0.870327
+End of Epoch 16/30, Average Loss=0.003132
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.759766
-Mean Acc: 0.761268
-FreqW Acc: 0.644213
-Mean IoU: 0.633430
+Overall Acc: 0.756696
+Mean Acc: 0.758383
+FreqW Acc: 0.640259
+Mean IoU: 0.629203
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 17, lr = 0.000010
-Epoch 17, Batch 10/281, Loss=0.892795
-Epoch 17, Batch 20/281, Loss=0.862285
-Epoch 17, Batch 30/281, Loss=0.792718
-Epoch 17, Batch 40/281, Loss=0.848685
-Epoch 17, Batch 50/281, Loss=0.914779
-Epoch 17, Batch 60/281, Loss=0.882040
-Epoch 17, Batch 70/281, Loss=0.937125
-Epoch 17, Batch 80/281, Loss=0.858338
-Epoch 17, Batch 90/281, Loss=0.875187
-Epoch 17, Batch 100/281, Loss=0.880876
-Epoch 17, Batch 110/281, Loss=0.879992
-Epoch 17, Batch 120/281, Loss=0.873726
-Epoch 17, Batch 130/281, Loss=0.861100
-Epoch 17, Batch 140/281, Loss=0.852900
-Epoch 17, Batch 150/281, Loss=0.918644
-Epoch 17, Batch 160/281, Loss=0.938008
-Epoch 17, Batch 170/281, Loss=0.878789
-Epoch 17, Batch 180/281, Loss=0.892134
-Epoch 17, Batch 190/281, Loss=0.837271
-Epoch 17, Batch 200/281, Loss=0.896108
-Epoch 17, Batch 210/281, Loss=0.874992
-Epoch 17, Batch 220/281, Loss=0.937267
-Epoch 17, Batch 230/281, Loss=0.811816
-Epoch 17, Batch 240/281, Loss=0.844645
-Epoch 17, Batch 250/281, Loss=0.831382
-Epoch 17, Batch 260/281, Loss=0.838046
-Epoch 17, Batch 270/281, Loss=0.824292
-Epoch 17, Batch 280/281, Loss=0.852299
-End of Epoch 17/30, Average Loss=0.003098
+Epoch 17, Batch 10/281, Loss=0.893287
+Epoch 17, Batch 20/281, Loss=0.864966
+Epoch 17, Batch 30/281, Loss=0.792315
+Epoch 17, Batch 40/281, Loss=0.855058
+Epoch 17, Batch 50/281, Loss=0.915208
+Epoch 17, Batch 60/281, Loss=0.887363
+Epoch 17, Batch 70/281, Loss=0.939871
+Epoch 17, Batch 80/281, Loss=0.862223
+Epoch 17, Batch 90/281, Loss=0.873800
+Epoch 17, Batch 100/281, Loss=0.881022
+Epoch 17, Batch 110/281, Loss=0.887340
+Epoch 17, Batch 120/281, Loss=0.874368
+Epoch 17, Batch 130/281, Loss=0.858761
+Epoch 17, Batch 140/281, Loss=0.850379
+Epoch 17, Batch 150/281, Loss=0.919622
+Epoch 17, Batch 160/281, Loss=0.938591
+Epoch 17, Batch 170/281, Loss=0.875442
+Epoch 17, Batch 180/281, Loss=0.889951
+Epoch 17, Batch 190/281, Loss=0.838702
+Epoch 17, Batch 200/281, Loss=0.898895
+Epoch 17, Batch 210/281, Loss=0.871549
+Epoch 17, Batch 220/281, Loss=0.939064
+Epoch 17, Batch 230/281, Loss=0.817606
+Epoch 17, Batch 240/281, Loss=0.849907
+Epoch 17, Batch 250/281, Loss=0.829927
+Epoch 17, Batch 260/281, Loss=0.833793
+Epoch 17, Batch 270/281, Loss=0.822650
+Epoch 17, Batch 280/281, Loss=0.854835
+End of Epoch 17/30, Average Loss=0.003102
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.761998
-Mean Acc: 0.762871
-FreqW Acc: 0.645903
-Mean IoU: 0.635040
+Overall Acc: 0.760951
+Mean Acc: 0.759536
+FreqW Acc: 0.645375
+Mean IoU: 0.631003
 
 Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 18, lr = 0.000010
-Epoch 18, Batch 10/281, Loss=0.876890
-Epoch 18, Batch 20/281, Loss=0.869498
-Epoch 18, Batch 30/281, Loss=0.914243
-Epoch 18, Batch 40/281, Loss=0.826955
-Epoch 18, Batch 50/281, Loss=0.891219
-Epoch 18, Batch 60/281, Loss=0.885099
-Epoch 18, Batch 70/281, Loss=0.897986
-Epoch 18, Batch 80/281, Loss=0.815759
-Epoch 18, Batch 90/281, Loss=0.875117
-Epoch 18, Batch 100/281, Loss=0.898199
-Epoch 18, Batch 110/281, Loss=0.903540
-Epoch 18, Batch 120/281, Loss=0.885049
-Epoch 18, Batch 130/281, Loss=0.814973
-Epoch 18, Batch 140/281, Loss=0.852468
-Epoch 18, Batch 150/281, Loss=0.897715
-Epoch 18, Batch 160/281, Loss=0.842224
-Epoch 18, Batch 170/281, Loss=0.895383
-Epoch 18, Batch 180/281, Loss=0.849955
-Epoch 18, Batch 190/281, Loss=0.845698
-Epoch 18, Batch 200/281, Loss=0.881769
-Epoch 18, Batch 210/281, Loss=0.940440
-Epoch 18, Batch 220/281, Loss=0.896001
-Epoch 18, Batch 230/281, Loss=0.852765
-Epoch 18, Batch 240/281, Loss=0.860166
-Epoch 18, Batch 250/281, Loss=0.814248
-Epoch 18, Batch 260/281, Loss=0.895992
-Epoch 18, Batch 270/281, Loss=0.878895
-Epoch 18, Batch 280/281, Loss=0.856689
-End of Epoch 18/30, Average Loss=0.003104
+Epoch 18, Batch 10/281, Loss=0.876883
+Epoch 18, Batch 20/281, Loss=0.871020
+Epoch 18, Batch 30/281, Loss=0.909942
+Epoch 18, Batch 40/281, Loss=0.827062
+Epoch 18, Batch 50/281, Loss=0.898301
+Epoch 18, Batch 60/281, Loss=0.891071
+Epoch 18, Batch 70/281, Loss=0.898650
+Epoch 18, Batch 80/281, Loss=0.817166
+Epoch 18, Batch 90/281, Loss=0.870190
+Epoch 18, Batch 100/281, Loss=0.900554
+Epoch 18, Batch 110/281, Loss=0.901937
+Epoch 18, Batch 120/281, Loss=0.885006
+Epoch 18, Batch 130/281, Loss=0.817679
+Epoch 18, Batch 140/281, Loss=0.860787
+Epoch 18, Batch 150/281, Loss=0.894466
+Epoch 18, Batch 160/281, Loss=0.843449
+Epoch 18, Batch 170/281, Loss=0.890617
+Epoch 18, Batch 180/281, Loss=0.854137
+Epoch 18, Batch 190/281, Loss=0.846499
+Epoch 18, Batch 200/281, Loss=0.880446
+Epoch 18, Batch 210/281, Loss=0.945366
+Epoch 18, Batch 220/281, Loss=0.894716
+Epoch 18, Batch 230/281, Loss=0.848150
+Epoch 18, Batch 240/281, Loss=0.860180
+Epoch 18, Batch 250/281, Loss=0.813061
+Epoch 18, Batch 260/281, Loss=0.895567
+Epoch 18, Batch 270/281, Loss=0.886806
+Epoch 18, Batch 280/281, Loss=0.858067
+End of Epoch 18/30, Average Loss=0.003107
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.762556
-Mean Acc: 0.763249
-FreqW Acc: 0.646067
-Mean IoU: 0.635071
+Overall Acc: 0.759417
+Mean Acc: 0.760075
+FreqW Acc: 0.643692
+Mean IoU: 0.631775
 
-Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 19, lr = 0.000010
-Epoch 19, Batch 10/281, Loss=0.881481
-Epoch 19, Batch 20/281, Loss=0.890630
-Epoch 19, Batch 30/281, Loss=0.859424
-Epoch 19, Batch 40/281, Loss=0.854020
-Epoch 19, Batch 50/281, Loss=0.852512
-Epoch 19, Batch 60/281, Loss=0.872574
-Epoch 19, Batch 70/281, Loss=0.837199
-Epoch 19, Batch 80/281, Loss=0.825878
-Epoch 19, Batch 90/281, Loss=0.891870
-Epoch 19, Batch 100/281, Loss=0.873861
-Epoch 19, Batch 110/281, Loss=0.878142
-Epoch 19, Batch 120/281, Loss=0.827928
-Epoch 19, Batch 130/281, Loss=0.895070
-Epoch 19, Batch 140/281, Loss=0.860864
-Epoch 19, Batch 150/281, Loss=0.863534
-Epoch 19, Batch 160/281, Loss=0.865818
-Epoch 19, Batch 170/281, Loss=0.917326
-Epoch 19, Batch 180/281, Loss=0.831559
-Epoch 19, Batch 190/281, Loss=0.851634
-Epoch 19, Batch 200/281, Loss=0.889523
-Epoch 19, Batch 210/281, Loss=0.872480
-Epoch 19, Batch 220/281, Loss=0.808963
-Epoch 19, Batch 230/281, Loss=0.834326
-Epoch 19, Batch 240/281, Loss=0.882578
-Epoch 19, Batch 250/281, Loss=0.861288
-Epoch 19, Batch 260/281, Loss=0.811711
-Epoch 19, Batch 270/281, Loss=0.894432
-Epoch 19, Batch 280/281, Loss=0.862205
-End of Epoch 19/30, Average Loss=0.003069
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.760882
-Mean Acc: 0.761587
-FreqW Acc: 0.644140
-Mean IoU: 0.632665
-
-Epoch 20, lr = 0.000010
-Epoch 20, Batch 10/281, Loss=0.854425
-Epoch 20, Batch 20/281, Loss=0.821198
-Epoch 20, Batch 30/281, Loss=0.835076
-Epoch 20, Batch 40/281, Loss=0.862970
-Epoch 20, Batch 50/281, Loss=0.869050
-Epoch 20, Batch 60/281, Loss=0.814859
-Epoch 20, Batch 70/281, Loss=0.883917
-Epoch 20, Batch 80/281, Loss=0.879285
-Epoch 20, Batch 90/281, Loss=0.875786
-Epoch 20, Batch 100/281, Loss=0.834083
-Epoch 20, Batch 110/281, Loss=0.887558
-Epoch 20, Batch 120/281, Loss=0.834775
-Epoch 20, Batch 130/281, Loss=0.908512
-Epoch 20, Batch 140/281, Loss=0.798412
-Epoch 20, Batch 150/281, Loss=0.897195
-Epoch 20, Batch 160/281, Loss=0.885161
-Epoch 20, Batch 170/281, Loss=0.864412
-Epoch 20, Batch 180/281, Loss=0.887460
-Epoch 20, Batch 190/281, Loss=0.807582
-Epoch 20, Batch 200/281, Loss=0.841852
-Epoch 20, Batch 210/281, Loss=0.877052
-Epoch 20, Batch 220/281, Loss=0.832626
-Epoch 20, Batch 230/281, Loss=0.814082
-Epoch 20, Batch 240/281, Loss=0.868818
-Epoch 20, Batch 250/281, Loss=0.850003
-Epoch 20, Batch 260/281, Loss=0.871139
-Epoch 20, Batch 270/281, Loss=0.909206
-Epoch 20, Batch 280/281, Loss=0.832749
-End of Epoch 20/30, Average Loss=0.003049
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.763044
-Mean Acc: 0.763231
-FreqW Acc: 0.648251
-Mean IoU: 0.636934
-
-Model saved as checkpoints/kd_resnet34_best.pth
-Epoch 21, lr = 0.000010
-Epoch 21, Batch 10/281, Loss=0.871143
-Epoch 21, Batch 20/281, Loss=0.852456
-Epoch 21, Batch 30/281, Loss=0.867163
-Epoch 21, Batch 40/281, Loss=0.861826
-Epoch 21, Batch 50/281, Loss=0.836730
-Epoch 21, Batch 60/281, Loss=0.852526
-Epoch 21, Batch 70/281, Loss=0.831749
-Epoch 21, Batch 80/281, Loss=0.887684
-Epoch 21, Batch 90/281, Loss=0.826581
-Epoch 21, Batch 100/281, Loss=0.895161
-Epoch 21, Batch 110/281, Loss=0.880307
-Epoch 21, Batch 120/281, Loss=0.850115
-Epoch 21, Batch 130/281, Loss=0.775793
-Epoch 21, Batch 140/281, Loss=0.817165
-Epoch 21, Batch 150/281, Loss=0.841228
-Epoch 21, Batch 160/281, Loss=0.883411
-Epoch 21, Batch 170/281, Loss=0.830821
-Epoch 21, Batch 180/281, Loss=0.854980
-Epoch 21, Batch 190/281, Loss=0.878741
-Epoch 21, Batch 200/281, Loss=0.841470
-Epoch 21, Batch 210/281, Loss=0.826714
-Epoch 21, Batch 220/281, Loss=0.898158
-Epoch 21, Batch 230/281, Loss=0.874886
-Epoch 21, Batch 240/281, Loss=0.879826
-Epoch 21, Batch 250/281, Loss=0.836667
-Epoch 21, Batch 260/281, Loss=0.866653
-Epoch 21, Batch 270/281, Loss=0.821030
-Epoch 21, Batch 280/281, Loss=0.843883
-End of Epoch 21/30, Average Loss=0.003037
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.765904
-Mean Acc: 0.766173
-FreqW Acc: 0.650909
-Mean IoU: 0.637939
-
-Model saved as checkpoints/kd_resnet34_best.pth
-Epoch 22, lr = 0.000010
-Epoch 22, Batch 10/281, Loss=0.840237
-Epoch 22, Batch 20/281, Loss=0.848728
-Epoch 22, Batch 30/281, Loss=0.801536
-Epoch 22, Batch 40/281, Loss=0.858503
-Epoch 22, Batch 50/281, Loss=0.907266
-Epoch 22, Batch 60/281, Loss=0.889100
-Epoch 22, Batch 70/281, Loss=0.906562
-Epoch 22, Batch 80/281, Loss=0.837482
-Epoch 22, Batch 90/281, Loss=0.877172
-Epoch 22, Batch 100/281, Loss=0.841061
-Epoch 22, Batch 110/281, Loss=0.867296
-Epoch 22, Batch 120/281, Loss=0.790104
-Epoch 22, Batch 130/281, Loss=0.813037
-Epoch 22, Batch 140/281, Loss=0.851819
-Epoch 22, Batch 150/281, Loss=0.866900
-Epoch 22, Batch 160/281, Loss=0.851595
-Epoch 22, Batch 170/281, Loss=0.845375
-Epoch 22, Batch 180/281, Loss=0.890938
-Epoch 22, Batch 190/281, Loss=0.838145
-Epoch 22, Batch 200/281, Loss=0.832344
-Epoch 22, Batch 210/281, Loss=0.860492
-Epoch 22, Batch 220/281, Loss=0.788458
-Epoch 22, Batch 230/281, Loss=0.941445
-Epoch 22, Batch 240/281, Loss=0.844902
-Epoch 22, Batch 250/281, Loss=0.850245
-Epoch 22, Batch 260/281, Loss=0.860627
-Epoch 22, Batch 270/281, Loss=0.870789
-Epoch 22, Batch 280/281, Loss=0.887345
-End of Epoch 22/30, Average Loss=0.003043
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.764648
-Mean Acc: 0.765038
-FreqW Acc: 0.650347
-Mean IoU: 0.638700
-
-Epoch 23, lr = 0.000010
-Epoch 23, Batch 10/281, Loss=0.869327
-Epoch 23, Batch 20/281, Loss=0.821059
-Epoch 23, Batch 30/281, Loss=0.857073
-Epoch 23, Batch 40/281, Loss=0.853717
-Epoch 23, Batch 50/281, Loss=0.876813
-Epoch 23, Batch 60/281, Loss=0.822088
-Epoch 23, Batch 70/281, Loss=0.819405
-Epoch 23, Batch 80/281, Loss=0.763998
-Epoch 23, Batch 90/281, Loss=0.870941
-Epoch 23, Batch 100/281, Loss=0.800929
-Epoch 23, Batch 110/281, Loss=0.972789
-Epoch 23, Batch 120/281, Loss=0.894022
-Epoch 23, Batch 130/281, Loss=0.890564
-Epoch 23, Batch 140/281, Loss=0.824169
-Epoch 23, Batch 150/281, Loss=0.851845
-Epoch 23, Batch 160/281, Loss=0.825388
-Epoch 23, Batch 170/281, Loss=0.813984
-Epoch 23, Batch 180/281, Loss=0.934595
-Epoch 23, Batch 190/281, Loss=0.820895
-Epoch 23, Batch 200/281, Loss=0.868450
-Epoch 23, Batch 210/281, Loss=0.886843
-Epoch 23, Batch 220/281, Loss=0.785603
-Epoch 23, Batch 230/281, Loss=0.904204
-Epoch 23, Batch 240/281, Loss=0.885703
-Epoch 23, Batch 250/281, Loss=0.831207
-Epoch 23, Batch 260/281, Loss=0.877261
-Epoch 23, Batch 270/281, Loss=0.852865
-Epoch 23, Batch 280/281, Loss=0.859219
-End of Epoch 23/30, Average Loss=0.003042
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.764090
-Mean Acc: 0.766037
-FreqW Acc: 0.649275
-Mean IoU: 0.639003
-
-Epoch 24, lr = 0.000010
-Epoch 24, Batch 10/281, Loss=0.881037
-Epoch 24, Batch 20/281, Loss=0.833575
-Epoch 24, Batch 30/281, Loss=0.874458
-Epoch 24, Batch 40/281, Loss=0.851105
-Epoch 24, Batch 50/281, Loss=0.881190
-Epoch 24, Batch 60/281, Loss=0.860348
-Epoch 24, Batch 70/281, Loss=0.809789
-Epoch 24, Batch 80/281, Loss=0.786878
-Epoch 24, Batch 90/281, Loss=0.816881
-Epoch 24, Batch 100/281, Loss=0.838709
-Epoch 24, Batch 110/281, Loss=0.854801
-Epoch 24, Batch 120/281, Loss=0.817722
-Epoch 24, Batch 130/281, Loss=0.804004
-Epoch 24, Batch 140/281, Loss=0.863136
-Epoch 24, Batch 150/281, Loss=0.848661
-Epoch 24, Batch 160/281, Loss=0.887927
-Epoch 24, Batch 170/281, Loss=0.856962
-Epoch 24, Batch 180/281, Loss=0.866199
-Epoch 24, Batch 190/281, Loss=0.835515
-Epoch 24, Batch 200/281, Loss=0.839588
-Epoch 24, Batch 210/281, Loss=0.870580
-Epoch 24, Batch 220/281, Loss=0.833887
-Epoch 24, Batch 230/281, Loss=0.892893
-Epoch 24, Batch 240/281, Loss=0.876418
-Epoch 24, Batch 250/281, Loss=0.858676
-Epoch 24, Batch 260/281, Loss=0.831102
-Epoch 24, Batch 270/281, Loss=0.854219
-Epoch 24, Batch 280/281, Loss=0.858461
-End of Epoch 24/30, Average Loss=0.003021
+Epoch 19, Batch 10/281, Loss=0.888387
+Epoch 19, Batch 20/281, Loss=0.891724
+Epoch 19, Batch 30/281, Loss=0.862629
+Epoch 19, Batch 40/281, Loss=0.855570
+Epoch 19, Batch 50/281, Loss=0.855393
+Epoch 19, Batch 60/281, Loss=0.869129
+Epoch 19, Batch 70/281, Loss=0.840342
+Epoch 19, Batch 80/281, Loss=0.827799
+Epoch 19, Batch 90/281, Loss=0.889497
+Epoch 19, Batch 100/281, Loss=0.873858
+Epoch 19, Batch 110/281, Loss=0.886060
+Epoch 19, Batch 120/281, Loss=0.829874
+Epoch 19, Batch 130/281, Loss=0.901787
+Epoch 19, Batch 140/281, Loss=0.856290
+Epoch 19, Batch 150/281, Loss=0.867786
+Epoch 19, Batch 160/281, Loss=0.870130
+Epoch 19, Batch 170/281, Loss=0.917821
+Epoch 19, Batch 180/281, Loss=0.832425
+Epoch 19, Batch 190/281, Loss=0.846790
+Epoch 19, Batch 200/281, Loss=0.891419
+Epoch 19, Batch 210/281, Loss=0.873719
+Epoch 19, Batch 220/281, Loss=0.811294
+Epoch 19, Batch 230/281, Loss=0.837413
+Epoch 19, Batch 240/281, Loss=0.880551
+Epoch 19, Batch 250/281, Loss=0.862278
+Epoch 19, Batch 260/281, Loss=0.812405
+Epoch 19, Batch 270/281, Loss=0.896553
+Epoch 19, Batch 280/281, Loss=0.862779
+End of Epoch 19/30, Average Loss=0.003074
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
 Overall Acc: 0.762905
-Mean Acc: 0.763128
-FreqW Acc: 0.648043
-Mean IoU: 0.636792
+Mean Acc: 0.764039
+FreqW Acc: 0.647744
+Mean IoU: 0.636586
 
+Model saved as checkpoints/kd_resnet34_best.pth
+Epoch 20, lr = 0.000010
+Epoch 20, Batch 10/281, Loss=0.855932
+Epoch 20, Batch 20/281, Loss=0.822432
+Epoch 20, Batch 30/281, Loss=0.833294
+Epoch 20, Batch 40/281, Loss=0.866239
+Epoch 20, Batch 50/281, Loss=0.869387
+Epoch 20, Batch 60/281, Loss=0.820185
+Epoch 20, Batch 70/281, Loss=0.886055
+Epoch 20, Batch 80/281, Loss=0.883969
+Epoch 20, Batch 90/281, Loss=0.874041
+Epoch 20, Batch 100/281, Loss=0.834083
+Epoch 20, Batch 110/281, Loss=0.890287
+Epoch 20, Batch 120/281, Loss=0.836498
+Epoch 20, Batch 130/281, Loss=0.911058
+Epoch 20, Batch 140/281, Loss=0.797748
+Epoch 20, Batch 150/281, Loss=0.896169
+Epoch 20, Batch 160/281, Loss=0.887170
+Epoch 20, Batch 170/281, Loss=0.866108
+Epoch 20, Batch 180/281, Loss=0.890444
+Epoch 20, Batch 190/281, Loss=0.808069
+Epoch 20, Batch 200/281, Loss=0.842832
+Epoch 20, Batch 210/281, Loss=0.876351
+Epoch 20, Batch 220/281, Loss=0.833451
+Epoch 20, Batch 230/281, Loss=0.814681
+Epoch 20, Batch 240/281, Loss=0.866641
+Epoch 20, Batch 250/281, Loss=0.852671
+Epoch 20, Batch 260/281, Loss=0.874527
+Epoch 20, Batch 270/281, Loss=0.908168
+Epoch 20, Batch 280/281, Loss=0.833843
+End of Epoch 20/30, Average Loss=0.003053
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.762416
+Mean Acc: 0.763419
+FreqW Acc: 0.647409
+Mean IoU: 0.636380
+
+Epoch 21, lr = 0.000010
+Epoch 21, Batch 10/281, Loss=0.872631
+Epoch 21, Batch 20/281, Loss=0.848787
+Epoch 21, Batch 30/281, Loss=0.867137
+Epoch 21, Batch 40/281, Loss=0.861535
+Epoch 21, Batch 50/281, Loss=0.836308
+Epoch 21, Batch 60/281, Loss=0.857055
+Epoch 21, Batch 70/281, Loss=0.836211
+Epoch 21, Batch 80/281, Loss=0.889316
+Epoch 21, Batch 90/281, Loss=0.826917
+Epoch 21, Batch 100/281, Loss=0.894817
+Epoch 21, Batch 110/281, Loss=0.877106
+Epoch 21, Batch 120/281, Loss=0.850185
+Epoch 21, Batch 130/281, Loss=0.775524
+Epoch 21, Batch 140/281, Loss=0.817058
+Epoch 21, Batch 150/281, Loss=0.845843
+Epoch 21, Batch 160/281, Loss=0.886463
+Epoch 21, Batch 170/281, Loss=0.832514
+Epoch 21, Batch 180/281, Loss=0.856079
+Epoch 21, Batch 190/281, Loss=0.881443
+Epoch 21, Batch 200/281, Loss=0.844533
+Epoch 21, Batch 210/281, Loss=0.825170
+Epoch 21, Batch 220/281, Loss=0.897773
+Epoch 21, Batch 230/281, Loss=0.875440
+Epoch 21, Batch 240/281, Loss=0.880084
+Epoch 21, Batch 250/281, Loss=0.836570
+Epoch 21, Batch 260/281, Loss=0.868543
+Epoch 21, Batch 270/281, Loss=0.825954
+Epoch 21, Batch 280/281, Loss=0.843973
+End of Epoch 21/30, Average Loss=0.003040
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.764718
+Mean Acc: 0.765452
+FreqW Acc: 0.650570
+Mean IoU: 0.638170
+
+Model saved as checkpoints/kd_resnet34_best.pth
+Epoch 22, lr = 0.000010
+Epoch 22, Batch 10/281, Loss=0.839847
+Epoch 22, Batch 20/281, Loss=0.853151
+Epoch 22, Batch 30/281, Loss=0.800158
+Epoch 22, Batch 40/281, Loss=0.854982
+Epoch 22, Batch 50/281, Loss=0.907932
+Epoch 22, Batch 60/281, Loss=0.889825
+Epoch 22, Batch 70/281, Loss=0.910627
+Epoch 22, Batch 80/281, Loss=0.839544
+Epoch 22, Batch 90/281, Loss=0.877555
+Epoch 22, Batch 100/281, Loss=0.841563
+Epoch 22, Batch 110/281, Loss=0.862294
+Epoch 22, Batch 120/281, Loss=0.791461
+Epoch 22, Batch 130/281, Loss=0.809330
+Epoch 22, Batch 140/281, Loss=0.856859
+Epoch 22, Batch 150/281, Loss=0.865631
+Epoch 22, Batch 160/281, Loss=0.853113
+Epoch 22, Batch 170/281, Loss=0.846836
+Epoch 22, Batch 180/281, Loss=0.894481
+Epoch 22, Batch 190/281, Loss=0.836704
+Epoch 22, Batch 200/281, Loss=0.835149
+Epoch 22, Batch 210/281, Loss=0.862229
+Epoch 22, Batch 220/281, Loss=0.789629
+Epoch 22, Batch 230/281, Loss=0.937341
+Epoch 22, Batch 240/281, Loss=0.848200
+Epoch 22, Batch 250/281, Loss=0.852574
+Epoch 22, Batch 260/281, Loss=0.861530
+Epoch 22, Batch 270/281, Loss=0.875571
+Epoch 22, Batch 280/281, Loss=0.890574
+End of Epoch 22/30, Average Loss=0.003046
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.765625
+Mean Acc: 0.766536
+FreqW Acc: 0.651695
+Mean IoU: 0.638895
+
+Model saved as checkpoints/kd_resnet34_best.pth
+Epoch 23, lr = 0.000010
+Epoch 23, Batch 10/281, Loss=0.867098
+Epoch 23, Batch 20/281, Loss=0.819565
+Epoch 23, Batch 30/281, Loss=0.860027
+Epoch 23, Batch 40/281, Loss=0.854152
+Epoch 23, Batch 50/281, Loss=0.876441
+Epoch 23, Batch 60/281, Loss=0.823172
+Epoch 23, Batch 70/281, Loss=0.825165
+Epoch 23, Batch 80/281, Loss=0.763215
+Epoch 23, Batch 90/281, Loss=0.873851
+Epoch 23, Batch 100/281, Loss=0.806438
+Epoch 23, Batch 110/281, Loss=0.971964
+Epoch 23, Batch 120/281, Loss=0.894069
+Epoch 23, Batch 130/281, Loss=0.890990
+Epoch 23, Batch 140/281, Loss=0.823961
+Epoch 23, Batch 150/281, Loss=0.852227
+Epoch 23, Batch 160/281, Loss=0.825149
+Epoch 23, Batch 170/281, Loss=0.815643
+Epoch 23, Batch 180/281, Loss=0.935947
+Epoch 23, Batch 190/281, Loss=0.823095
+Epoch 23, Batch 200/281, Loss=0.868765
+Epoch 23, Batch 210/281, Loss=0.890672
+Epoch 23, Batch 220/281, Loss=0.785202
+Epoch 23, Batch 230/281, Loss=0.897746
+Epoch 23, Batch 240/281, Loss=0.882168
+Epoch 23, Batch 250/281, Loss=0.830080
+Epoch 23, Batch 260/281, Loss=0.875531
+Epoch 23, Batch 270/281, Loss=0.857533
+Epoch 23, Batch 280/281, Loss=0.861738
+End of Epoch 23/30, Average Loss=0.003044
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.764090
+Mean Acc: 0.765667
+FreqW Acc: 0.649584
+Mean IoU: 0.638230
+
+Epoch 24, lr = 0.000010
+Epoch 24, Batch 10/281, Loss=0.879986
+Epoch 24, Batch 20/281, Loss=0.833952
+Epoch 24, Batch 30/281, Loss=0.877200
+Epoch 24, Batch 40/281, Loss=0.853395
+Epoch 24, Batch 50/281, Loss=0.883539
+Epoch 24, Batch 60/281, Loss=0.859833
+Epoch 24, Batch 70/281, Loss=0.808858
+Epoch 24, Batch 80/281, Loss=0.783251
+Epoch 24, Batch 90/281, Loss=0.818053
+Epoch 24, Batch 100/281, Loss=0.840371
+Epoch 24, Batch 110/281, Loss=0.858698
+Epoch 24, Batch 120/281, Loss=0.816829
+Epoch 24, Batch 130/281, Loss=0.804728
+Epoch 24, Batch 140/281, Loss=0.862685
+Epoch 24, Batch 150/281, Loss=0.849065
+Epoch 24, Batch 160/281, Loss=0.891662
+Epoch 24, Batch 170/281, Loss=0.858063
+Epoch 24, Batch 180/281, Loss=0.864056
+Epoch 24, Batch 190/281, Loss=0.838179
+Epoch 24, Batch 200/281, Loss=0.842616
+Epoch 24, Batch 210/281, Loss=0.869320
+Epoch 24, Batch 220/281, Loss=0.835595
+Epoch 24, Batch 230/281, Loss=0.894879
+Epoch 24, Batch 240/281, Loss=0.878180
+Epoch 24, Batch 250/281, Loss=0.860616
+Epoch 24, Batch 260/281, Loss=0.828025
+Epoch 24, Batch 270/281, Loss=0.853999
+Epoch 24, Batch 280/281, Loss=0.853160
+End of Epoch 24/30, Average Loss=0.003023
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.766183
+Mean Acc: 0.768588
+FreqW Acc: 0.651399
+Mean IoU: 0.641926
+
+Model saved as checkpoints/kd_resnet34_best.pth
 Epoch 25, lr = 0.000010
-Epoch 25, Batch 10/281, Loss=0.878036
-Epoch 25, Batch 20/281, Loss=0.843514
-Epoch 25, Batch 30/281, Loss=0.836802
-Epoch 25, Batch 40/281, Loss=0.874951
-Epoch 25, Batch 50/281, Loss=0.807233
-Epoch 25, Batch 60/281, Loss=0.817703
-Epoch 25, Batch 70/281, Loss=0.866559
-Epoch 25, Batch 80/281, Loss=0.830795
-Epoch 25, Batch 90/281, Loss=0.813399
-Epoch 25, Batch 100/281, Loss=0.816091
-Epoch 25, Batch 110/281, Loss=0.856200
-Epoch 25, Batch 120/281, Loss=0.871649
-Epoch 25, Batch 130/281, Loss=0.863084
-Epoch 25, Batch 140/281, Loss=0.887654
-Epoch 25, Batch 150/281, Loss=0.789430
-Epoch 25, Batch 160/281, Loss=0.849139
-Epoch 25, Batch 170/281, Loss=0.881784
-Epoch 25, Batch 180/281, Loss=0.917462
-Epoch 25, Batch 190/281, Loss=0.774460
-Epoch 25, Batch 200/281, Loss=0.837095
-Epoch 25, Batch 210/281, Loss=0.812683
-Epoch 25, Batch 220/281, Loss=0.825072
-Epoch 25, Batch 230/281, Loss=0.834169
-Epoch 25, Batch 240/281, Loss=0.824966
-Epoch 25, Batch 250/281, Loss=0.947468
-Epoch 25, Batch 260/281, Loss=0.827007
-Epoch 25, Batch 270/281, Loss=0.850539
-Epoch 25, Batch 280/281, Loss=0.884067
-End of Epoch 25/30, Average Loss=0.003015
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.764300
-Mean Acc: 0.766455
-FreqW Acc: 0.651056
-Mean IoU: 0.640911
-
-Epoch 26, lr = 0.000010
-Epoch 26, Batch 10/281, Loss=0.832828
-Epoch 26, Batch 20/281, Loss=0.888699
-Epoch 26, Batch 30/281, Loss=0.840463
-Epoch 26, Batch 40/281, Loss=0.786070
-Epoch 26, Batch 50/281, Loss=0.832585
-Epoch 26, Batch 60/281, Loss=0.857321
-Epoch 26, Batch 70/281, Loss=0.832272
-Epoch 26, Batch 80/281, Loss=0.844266
-Epoch 26, Batch 90/281, Loss=0.849892
-Epoch 26, Batch 100/281, Loss=0.824413
-Epoch 26, Batch 110/281, Loss=0.819870
-Epoch 26, Batch 120/281, Loss=0.840646
-Epoch 26, Batch 130/281, Loss=0.851191
-Epoch 26, Batch 140/281, Loss=0.832428
-Epoch 26, Batch 150/281, Loss=0.849575
-Epoch 26, Batch 160/281, Loss=0.852703
-Epoch 26, Batch 170/281, Loss=0.836325
-Epoch 26, Batch 180/281, Loss=0.867288
-Epoch 26, Batch 190/281, Loss=0.916855
-Epoch 26, Batch 200/281, Loss=0.872000
-Epoch 26, Batch 210/281, Loss=0.808390
-Epoch 26, Batch 220/281, Loss=0.853773
-Epoch 26, Batch 230/281, Loss=0.877161
-Epoch 26, Batch 240/281, Loss=0.813962
-Epoch 26, Batch 250/281, Loss=0.782526
-Epoch 26, Batch 260/281, Loss=0.866030
-Epoch 26, Batch 270/281, Loss=0.833512
-Epoch 26, Batch 280/281, Loss=0.853260
-End of Epoch 26/30, Average Loss=0.003002
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.764369
-Mean Acc: 0.765843
-FreqW Acc: 0.650841
-Mean IoU: 0.640002
-
-Epoch 27, lr = 0.000010
-Epoch 27, Batch 10/281, Loss=0.851245
-Epoch 27, Batch 20/281, Loss=0.885578
-Epoch 27, Batch 30/281, Loss=0.802942
-Epoch 27, Batch 40/281, Loss=0.776720
-Epoch 27, Batch 50/281, Loss=0.801608
-Epoch 27, Batch 60/281, Loss=0.752102
-Epoch 27, Batch 70/281, Loss=0.803436
-Epoch 27, Batch 80/281, Loss=0.795943
-Epoch 27, Batch 90/281, Loss=0.840033
-Epoch 27, Batch 100/281, Loss=0.872537
-Epoch 27, Batch 110/281, Loss=0.853146
-Epoch 27, Batch 120/281, Loss=0.877840
-Epoch 27, Batch 130/281, Loss=0.865703
-Epoch 27, Batch 140/281, Loss=0.803961
-Epoch 27, Batch 150/281, Loss=0.921235
-Epoch 27, Batch 160/281, Loss=0.837088
-Epoch 27, Batch 170/281, Loss=0.861422
-Epoch 27, Batch 180/281, Loss=0.881966
-Epoch 27, Batch 190/281, Loss=0.824283
-Epoch 27, Batch 200/281, Loss=0.829493
-Epoch 27, Batch 210/281, Loss=0.863951
-Epoch 27, Batch 220/281, Loss=0.854071
-Epoch 27, Batch 230/281, Loss=0.851890
-Epoch 27, Batch 240/281, Loss=0.878942
-Epoch 27, Batch 250/281, Loss=0.847000
-Epoch 27, Batch 260/281, Loss=0.860898
-Epoch 27, Batch 270/281, Loss=0.884698
-Epoch 27, Batch 280/281, Loss=0.851329
-End of Epoch 27/30, Average Loss=0.003006
-Model saved as checkpoints/kd_resnet34_latest.pth
-validate on val set...
-
-Overall Acc: 0.764369
-Mean Acc: 0.766838
-FreqW Acc: 0.649890
-Mean IoU: 0.639455
-
-Epoch 28, lr = 0.000010
-Epoch 28, Batch 10/281, Loss=0.891234
-Epoch 28, Batch 20/281, Loss=0.814124
-Epoch 28, Batch 30/281, Loss=0.855321
-Epoch 28, Batch 40/281, Loss=0.778557
-Epoch 28, Batch 50/281, Loss=0.797739
-Epoch 28, Batch 60/281, Loss=0.827715
-Epoch 28, Batch 70/281, Loss=0.914861
-Epoch 28, Batch 80/281, Loss=0.842352
-Epoch 28, Batch 90/281, Loss=0.795026
-Epoch 28, Batch 100/281, Loss=0.845428
-Epoch 28, Batch 110/281, Loss=0.847453
-Epoch 28, Batch 120/281, Loss=0.854530
-Epoch 28, Batch 130/281, Loss=0.860513
-Epoch 28, Batch 140/281, Loss=0.835443
-Epoch 28, Batch 150/281, Loss=0.836023
-Epoch 28, Batch 160/281, Loss=0.812559
-Epoch 28, Batch 170/281, Loss=0.815998
-Epoch 28, Batch 180/281, Loss=0.874897
-Epoch 28, Batch 190/281, Loss=0.868472
-Epoch 28, Batch 200/281, Loss=0.841057
-Epoch 28, Batch 210/281, Loss=0.855507
-Epoch 28, Batch 220/281, Loss=0.796243
-Epoch 28, Batch 230/281, Loss=0.860435
-Epoch 28, Batch 240/281, Loss=0.799465
-Epoch 28, Batch 250/281, Loss=0.875288
-Epoch 28, Batch 260/281, Loss=0.861513
-Epoch 28, Batch 270/281, Loss=0.900735
-Epoch 28, Batch 280/281, Loss=0.849616
-End of Epoch 28/30, Average Loss=0.002999
+Epoch 25, Batch 10/281, Loss=0.878396
+Epoch 25, Batch 20/281, Loss=0.847932
+Epoch 25, Batch 30/281, Loss=0.836361
+Epoch 25, Batch 40/281, Loss=0.874887
+Epoch 25, Batch 50/281, Loss=0.805463
+Epoch 25, Batch 60/281, Loss=0.818330
+Epoch 25, Batch 70/281, Loss=0.867035
+Epoch 25, Batch 80/281, Loss=0.833527
+Epoch 25, Batch 90/281, Loss=0.814494
+Epoch 25, Batch 100/281, Loss=0.815210
+Epoch 25, Batch 110/281, Loss=0.859095
+Epoch 25, Batch 120/281, Loss=0.871721
+Epoch 25, Batch 130/281, Loss=0.865973
+Epoch 25, Batch 140/281, Loss=0.892093
+Epoch 25, Batch 150/281, Loss=0.795132
+Epoch 25, Batch 160/281, Loss=0.852295
+Epoch 25, Batch 170/281, Loss=0.880257
+Epoch 25, Batch 180/281, Loss=0.918106
+Epoch 25, Batch 190/281, Loss=0.774625
+Epoch 25, Batch 200/281, Loss=0.838611
+Epoch 25, Batch 210/281, Loss=0.809589
+Epoch 25, Batch 220/281, Loss=0.825740
+Epoch 25, Batch 230/281, Loss=0.838277
+Epoch 25, Batch 240/281, Loss=0.827076
+Epoch 25, Batch 250/281, Loss=0.947333
+Epoch 25, Batch 260/281, Loss=0.828814
+Epoch 25, Batch 270/281, Loss=0.849919
+Epoch 25, Batch 280/281, Loss=0.883987
+End of Epoch 25/30, Average Loss=0.003020
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
 Overall Acc: 0.765695
-Mean Acc: 0.768341
-FreqW Acc: 0.651617
-Mean IoU: 0.643080
+Mean Acc: 0.768510
+FreqW Acc: 0.651216
+Mean IoU: 0.641648
 
-Epoch 29, lr = 0.000001
-Epoch 29, Batch 10/281, Loss=0.823423
-Epoch 29, Batch 20/281, Loss=0.821448
-Epoch 29, Batch 30/281, Loss=0.841146
-Epoch 29, Batch 40/281, Loss=0.866507
-Epoch 29, Batch 50/281, Loss=0.832374
-Epoch 29, Batch 60/281, Loss=0.850722
-Epoch 29, Batch 70/281, Loss=0.826082
-Epoch 29, Batch 80/281, Loss=0.786739
-Epoch 29, Batch 90/281, Loss=0.864827
-Epoch 29, Batch 100/281, Loss=0.859098
-Epoch 29, Batch 110/281, Loss=0.870817
-Epoch 29, Batch 120/281, Loss=0.822406
-Epoch 29, Batch 130/281, Loss=0.825581
-Epoch 29, Batch 140/281, Loss=0.861402
-Epoch 29, Batch 150/281, Loss=0.861050
-Epoch 29, Batch 160/281, Loss=0.781630
-Epoch 29, Batch 170/281, Loss=0.840778
-Epoch 29, Batch 180/281, Loss=0.824700
-Epoch 29, Batch 190/281, Loss=0.846686
-Epoch 29, Batch 200/281, Loss=0.833861
-Epoch 29, Batch 210/281, Loss=0.845734
-Epoch 29, Batch 220/281, Loss=0.868223
-Epoch 29, Batch 230/281, Loss=0.878539
-Epoch 29, Batch 240/281, Loss=0.868531
-Epoch 29, Batch 250/281, Loss=0.846739
-Epoch 29, Batch 260/281, Loss=0.813625
-Epoch 29, Batch 270/281, Loss=0.806714
-Epoch 29, Batch 280/281, Loss=0.842701
-End of Epoch 29/30, Average Loss=0.002988
+Epoch 26, lr = 0.000010
+Epoch 26, Batch 10/281, Loss=0.835279
+Epoch 26, Batch 20/281, Loss=0.887850
+Epoch 26, Batch 30/281, Loss=0.839816
+Epoch 26, Batch 40/281, Loss=0.782871
+Epoch 26, Batch 50/281, Loss=0.835443
+Epoch 26, Batch 60/281, Loss=0.858399
+Epoch 26, Batch 70/281, Loss=0.833043
+Epoch 26, Batch 80/281, Loss=0.840647
+Epoch 26, Batch 90/281, Loss=0.851240
+Epoch 26, Batch 100/281, Loss=0.828664
+Epoch 26, Batch 110/281, Loss=0.823280
+Epoch 26, Batch 120/281, Loss=0.841880
+Epoch 26, Batch 130/281, Loss=0.853731
+Epoch 26, Batch 140/281, Loss=0.833338
+Epoch 26, Batch 150/281, Loss=0.848927
+Epoch 26, Batch 160/281, Loss=0.854889
+Epoch 26, Batch 170/281, Loss=0.835930
+Epoch 26, Batch 180/281, Loss=0.866432
+Epoch 26, Batch 190/281, Loss=0.917187
+Epoch 26, Batch 200/281, Loss=0.872247
+Epoch 26, Batch 210/281, Loss=0.810803
+Epoch 26, Batch 220/281, Loss=0.854498
+Epoch 26, Batch 230/281, Loss=0.877372
+Epoch 26, Batch 240/281, Loss=0.812262
+Epoch 26, Batch 250/281, Loss=0.778102
+Epoch 26, Batch 260/281, Loss=0.867894
+Epoch 26, Batch 270/281, Loss=0.832822
+Epoch 26, Batch 280/281, Loss=0.853796
+End of Epoch 26/30, Average Loss=0.003003
 Model saved as checkpoints/kd_resnet34_latest.pth
 validate on val set...
 
-Overall Acc: 0.766532
-Mean Acc: 0.768360
-FreqW Acc: 0.652948
-Mean IoU: 0.642984
+Overall Acc: 0.764230
+Mean Acc: 0.766881
+FreqW Acc: 0.650466
+Mean IoU: 0.640460
+
+Epoch 27, lr = 0.000010
+Epoch 27, Batch 10/281, Loss=0.852426
+Epoch 27, Batch 20/281, Loss=0.886455
+Epoch 27, Batch 30/281, Loss=0.804755
+Epoch 27, Batch 40/281, Loss=0.779596
+Epoch 27, Batch 50/281, Loss=0.801538
+Epoch 27, Batch 60/281, Loss=0.749419
+Epoch 27, Batch 70/281, Loss=0.805634
+Epoch 27, Batch 80/281, Loss=0.797137
+Epoch 27, Batch 90/281, Loss=0.840581
+Epoch 27, Batch 100/281, Loss=0.874163
+Epoch 27, Batch 110/281, Loss=0.855605
+Epoch 27, Batch 120/281, Loss=0.879677
+Epoch 27, Batch 130/281, Loss=0.866042
+Epoch 27, Batch 140/281, Loss=0.805498
+Epoch 27, Batch 150/281, Loss=0.920185
+Epoch 27, Batch 160/281, Loss=0.841591
+Epoch 27, Batch 170/281, Loss=0.862032
+Epoch 27, Batch 180/281, Loss=0.882526
+Epoch 27, Batch 190/281, Loss=0.825443
+Epoch 27, Batch 200/281, Loss=0.827237
+Epoch 27, Batch 210/281, Loss=0.866488
+Epoch 27, Batch 220/281, Loss=0.855373
+Epoch 27, Batch 230/281, Loss=0.854825
+Epoch 27, Batch 240/281, Loss=0.878129
+Epoch 27, Batch 250/281, Loss=0.844324
+Epoch 27, Batch 260/281, Loss=0.860782
+Epoch 27, Batch 270/281, Loss=0.889104
+Epoch 27, Batch 280/281, Loss=0.850526
+End of Epoch 27/30, Average Loss=0.003009
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.765834
+Mean Acc: 0.768162
+FreqW Acc: 0.652556
+Mean IoU: 0.641345
+
+Epoch 28, lr = 0.000010
+Epoch 28, Batch 10/281, Loss=0.892309
+Epoch 28, Batch 20/281, Loss=0.811850
+Epoch 28, Batch 30/281, Loss=0.851782
+Epoch 28, Batch 40/281, Loss=0.779690
+Epoch 28, Batch 50/281, Loss=0.800046
+Epoch 28, Batch 60/281, Loss=0.829918
+Epoch 28, Batch 70/281, Loss=0.914441
+Epoch 28, Batch 80/281, Loss=0.842522
+Epoch 28, Batch 90/281, Loss=0.795408
+Epoch 28, Batch 100/281, Loss=0.842284
+Epoch 28, Batch 110/281, Loss=0.847492
+Epoch 28, Batch 120/281, Loss=0.851202
+Epoch 28, Batch 130/281, Loss=0.860639
+Epoch 28, Batch 140/281, Loss=0.839400
+Epoch 28, Batch 150/281, Loss=0.839113
+Epoch 28, Batch 160/281, Loss=0.813089
+Epoch 28, Batch 170/281, Loss=0.814299
+Epoch 28, Batch 180/281, Loss=0.875216
+Epoch 28, Batch 190/281, Loss=0.868696
+Epoch 28, Batch 200/281, Loss=0.842666
+Epoch 28, Batch 210/281, Loss=0.854055
+Epoch 28, Batch 220/281, Loss=0.795840
+Epoch 28, Batch 230/281, Loss=0.859227
+Epoch 28, Batch 240/281, Loss=0.799818
+Epoch 28, Batch 250/281, Loss=0.876304
+Epoch 28, Batch 260/281, Loss=0.863309
+Epoch 28, Batch 270/281, Loss=0.899540
+Epoch 28, Batch 280/281, Loss=0.852408
+End of Epoch 28/30, Average Loss=0.003000
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.767090
+Mean Acc: 0.770901
+FreqW Acc: 0.653094
+Mean IoU: 0.644344
+
+Model saved as checkpoints/kd_resnet34_best.pth
+Epoch 29, lr = 0.000001
+Epoch 29, Batch 10/281, Loss=0.823424
+Epoch 29, Batch 20/281, Loss=0.820618
+Epoch 29, Batch 30/281, Loss=0.839857
+Epoch 29, Batch 40/281, Loss=0.869943
+Epoch 29, Batch 50/281, Loss=0.834056
+Epoch 29, Batch 60/281, Loss=0.849067
+Epoch 29, Batch 70/281, Loss=0.825397
+Epoch 29, Batch 80/281, Loss=0.788137
+Epoch 29, Batch 90/281, Loss=0.864896
+Epoch 29, Batch 100/281, Loss=0.855687
+Epoch 29, Batch 110/281, Loss=0.870418
+Epoch 29, Batch 120/281, Loss=0.824203
+Epoch 29, Batch 130/281, Loss=0.826173
+Epoch 29, Batch 140/281, Loss=0.861312
+Epoch 29, Batch 150/281, Loss=0.862711
+Epoch 29, Batch 160/281, Loss=0.779861
+Epoch 29, Batch 170/281, Loss=0.839826
+Epoch 29, Batch 180/281, Loss=0.826873
+Epoch 29, Batch 190/281, Loss=0.845361
+Epoch 29, Batch 200/281, Loss=0.831294
+Epoch 29, Batch 210/281, Loss=0.846135
+Epoch 29, Batch 220/281, Loss=0.871284
+Epoch 29, Batch 230/281, Loss=0.880967
+Epoch 29, Batch 240/281, Loss=0.871216
+Epoch 29, Batch 250/281, Loss=0.848822
+Epoch 29, Batch 260/281, Loss=0.812457
+Epoch 29, Batch 270/281, Loss=0.807263
+Epoch 29, Batch 280/281, Loss=0.843650
+End of Epoch 29/30, Average Loss=0.002989
+Model saved as checkpoints/kd_resnet34_latest.pth
+validate on val set...
+
+Overall Acc: 0.768415
+Mean Acc: 0.771690
+FreqW Acc: 0.654330
+Mean IoU: 0.644515
 
 Model saved as checkpoints/kd_resnet34_best.pth

@@ -35,6 +35,7 @@ def get_parser():
     parser.add_argument("--random_seed", type=int, default=1337)
     parser.add_argument("--download", action='store_true', default=False)
     parser.add_argument("--epochs", type=int, default=30)
+    parser.add_argument("--cfl_lr", type=float, default=None)
 
     parser.add_argument("--t1_ckpt", type=str, default='checkpoints/cub200_resnet18_best.pth')
     parser.add_argument("--t2_ckpt", type=str, default='checkpoints/dogs_resnet34_best.pth')
@@ -99,7 +100,7 @@ def amal(cur_epoch, criterion_ce, criterion_cf, model, cfl_blk, teachers, optim,
             avgmeter.reset('interval loss')
             avgmeter.reset('ce loss')
             avgmeter.reset('cf loss')
-    return avgmeter.get_results('loss') / len(train_loader)
+    return avgmeter.get_results('loss')
 
 
 def validate(model, loader, device, metrics):
@@ -191,9 +192,11 @@ def main():
             params_10x.append(param)
         else:
             params_1x.append(param)
+
+    cfl_lr = opts.lr*10 if opts.cfl_lr is None else opts.cfl_lr
     optimizer = torch.optim.Adam([{'params': params_1x,             'lr': opts.lr},
                                   {'params': params_10x,            'lr': opts.lr*10},
-                                  {'params': cfl_blk.parameters(),  'lr': opts.lr*10} ],
+                                  {'params': cfl_blk.parameters(),  'lr': cfl_lr} ],
                                  lr=opts.lr, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.StepLR(
         optimizer, step_size=15, gamma=0.1)
