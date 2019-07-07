@@ -1,5 +1,5 @@
 # Common Feature Learning
-Official implementation of [Knowledge Amalgamation from Heterogeneous Networks by Common Feature Learning](http://arxiv.org/abs/1906.10546) (*IJCAI 2019*)
+Official implementation of [Knowledge Amalgamation from Heterogeneous Networks by Common Feature Learning](http://arxiv.org/abs/1906.10546) (*IJCAI 2019*) in pytorch.
 
 <div align="center">
 <img src="CFL.png" width=40%>
