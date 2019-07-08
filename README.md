@@ -57,6 +57,7 @@ ResNet18 & ResNet34, 242.9 MB
 #### 3. Train
 ```bash
 python amal.py --model resnet34 --gpu_id 0 --lr 1e-4 --cfl_lr 5e-4
+python kd.py --model resnet34 --gpu_id 0 --lr 1e-4
 ```
 or
 ```bash
