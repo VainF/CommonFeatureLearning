@@ -86,10 +86,10 @@ python tsne_common_space.py --ckpt checkpoints/amal_densenet121_best.pth --t1_ck
 
 ## Citation
 ```
-@article{luo2019knowledge,
-  title={Knowledge Amalgamation from Heterogeneous Networks by Common Feature Learning},
-  author={Luo, Sihui and Wang, Xinchao and Fang, Gongfan and Hu, Yao and Tao, Dapeng and Song, Mingli},
-  journal={arXiv preprint arXiv:1906.10546},
-  year={2019}
+@inproceedings{luo2019knowledge,
+title={Knowledge Amalgamation from Heterogeneous Networks by Common Feature Learning},
+author={Luo, Sihui and Wang, Xinchao and Fang, Gongfan and Hu, Yao and Tao, Dapeng and Song, Mingli},
+booktitle={Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI)},
+year={2019},
 }
 ```
